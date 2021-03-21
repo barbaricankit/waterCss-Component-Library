@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./inputstyles.css" />
+    <title>Input Components</title>
+  </head>
+  <body>
+    <h1>Input Fields</h1>
+    <h2>Text Field</h2>
+
+    <div class="simple-textbox">
+      <div style="margin-top: 1rem">
+        <label for="inputbox" class="text-label" hidden> Required *</label>
+        <div>
+          <span class="validation-input">
+            <input
+              id="inputbox"
+              class="textbox"
+              type="text"
+              placeholder="Standard"
+            />
+            <span class="error-text" hidden>Error</span>
+          </span>
+        </div>
+      </div>
+      <div>
+        <label for="inputbox" class="text-label" hidden> Required *</label>
+        <div>
+          <span class="validation-input">
+            <input
+              id="inputbox"
+              class="textbox filled"
+              type="text"
+              placeholder="Filled"
+            />
+            <span class="error-text" hidden>Error</span>
+          </span>
+        </div>
+      </div>
+      <div>
+        <label for="inputbox" class="text-label" hidden> Required *</label>
+        <div>
+          <span class="validation-input">
+            <input
+              id="inputbox"
+              class="textbox outlined"
+              type="text"
+              placeholder="Outlined"
+            />
+            <span class="error-text" hidden>Error</span>
+          </span>
+        </div>
+      </div>
+    </div>
+    <h2>Simple Form Fields</h2>
+    <div class="simple-textbox">
+      <div>
+        <label for="inputbox" class="text-label"> Required *</label>
+        <div>
+          <span class="validation-input">
+            <input
+              id="inputbox"
+              class="textbox"
+              type="text"
+              placeholder="Standard"
+            />
+            <span class="error-text" hidden>Error</span>
+          </span>
+        </div>
+      </div>
+
+      <div>
+        <label for="inputbox" class="text-label"> Disabled</label>
+        <div>
+          <input
+            disabled
+            id="inputbox"
+            class="textbox"
+            type="text"
+            value="Disabled Text"
+          />
+        </div>
+      </div>
+      <div style="margin-top: 1.2rem;">
+        <input class="textbox" type="password" placeholder="Password" />
+      </div>
+      <div>
+        <label for="inputbox" class="text-label"> Read Only</label>
+        <div>
+          <input readonly class="textbox" type="text" placeholder="Read Only" />
+        </div>
+      </div>
+      <div>
+        <label for="inputbox" class="text-label"> Number</label>
+        <div>
+          <input class="textbox" type="number" />
+        </div>
+      </div>
+      <div>
+        <label for="inputbox" class="text-label"> Search</label>
+        <div>
+          <input class="textbox search-text" type="search" />
+        </div>
+      </div>
+    </div>
+
+    <!--Filled Form Fields-->
+    <h2>Filled Form Fields</h2>
+    <div class="simple-textbox">
+      <div>
+        <label for="inputbox " class="text-label"> Required *</label>
+        <div>
+          <input
+            id="inputbox"
+            class="textbox filled"
+            type="text"
+            placeholder="Standard"
+          />
+        </div>
+      </div>
+
+      <div>
+        <label for="inputbox" class="text-label"> Disabled</label>
+        <div>
+          <input
+            disabled
+            id="inputbox"
+            class="textbox filled"
+            type="text"
+            value="Disabled Text"
+          />
+        </div>
+      </div>
+      <div style="margin-top: 1.2rem;">
+        <input class="textbox filled" type="password" placeholder="Password" />
+      </div>
+      <div>
+        <label for="inputbox" class="text-label"> Read Only</label>
+        <div>
+          <input
+            readonly
+            class="textbox read-only-text filled"
+            type="text"
+            placeholder="Read Only"
+          />
+        </div>
+      </div>
+      <div>
+        <label for="inputbox" class="text-label"> Number</label>
+        <div>
+          <input class="textbox filled" type="number" />
+        </div>
+      </div>
+      <div>
+        <label for="inputbox" class="text-label"> Search</label>
+        <div>
+          <input class="textbox filled" type="search" />
+        </div>
+      </div>
+    </div>
+    <h1>Validation Error</h1>
+    <!--Validation Form Fields-->
+    <div class="simple-textbox">
+      <div>
+        <label for="inputbox" class="text-label"> Required *</label>
+        <div>
+          <span class="validation-fail">
+            <input
+              id="inputbox"
+              class="textbox validation-error"
+              type="text"
+              placeholder="Standard"
+            />
+            <span class="error-text">Error</span>
+          </span>
+        </div>
+      </div>
+
+      <div style="margin-top: 1.2rem;">
+        <span class="validation-fail">
+          <input
+            class="textbox validation-error"
+            type="password"
+            placeholder="Password"
+          />
+          <span class="error-text">Incorrect Password</span>
+        </span>
+      </div>
+    </div>
+  </body>
+</html>

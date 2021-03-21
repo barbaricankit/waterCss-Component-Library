@@ -1,0 +1,66 @@
+body {
+    font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+  }
+  .buttons {
+    border: 1px solid gray;
+    border-radius: 5px;
+    max-width: 40%;
+    margin: 2rem;
+    padding: 1rem;
+    text-align: center;
+  }
+  
+  .primary-btn {
+    padding: 0.5rem 1rem;
+    background-color: #1976d2;
+    color: white;
+    line-height: 1.75;
+    font-weight: 600;
+    letter-spacing: 0.02857em;
+    border-radius: 6px;
+    margin: 0.5rem;
+    cursor: pointer;
+  }
+  
+  .default-btn {
+    background-color: #e0e0e0;
+    color: black;
+  }
+  .text-btn {
+    background-color: transparent;
+    cursor: pointer;
+    border: 0;
+    line-height: 1.75;
+    font-weight: 600;
+    letter-spacing: 0.02857em;
+    color: #1976d2;
+  }
+  .secondary-btn {
+    background-color: transparent;
+    cursor: pointer;
+    border: 0;
+    line-height: 1.75;
+    font-weight: 600;
+    letter-spacing: 0.02857em;
+    color: #1976d2;
+    border: 1px solid black;
+    border-radius: 3px;
+  }
+  
+  .icon-btn {
+    width: 1.5em;
+    height: 1.5em;
+  }
+  .floating-action-icon-btn {
+    width: 56px;
+    height: 56px;
+    background-color: #1976d2;
+    border-radius: 50%;
+    color: white;
+    line-height: 1.5;
+    text-align: center;
+  }
+  .red-background-btn {
+    background-color: rgb(220, 0, 78);
+  }
+  

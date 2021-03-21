@@ -1,0 +1,148 @@
+body {
+    margin: 0;
+  }
+  :root {
+    --background-color1: #f1f1f1;
+    --hover-background-color: #555;
+    --active-background-color: #4caf50;
+    --font-color: #000;
+    --hover-font-color: white;
+  }
+  /* Fixed Vertical Nav-bar */
+  .fixed-vertical-bar {
+    width: 25%;
+    height: 100%;
+    position: fixed;
+    /* overflow: auto; */
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: var(--background-color1);
+    top: 0;
+  }
+  /* Vertical Nav-Bar */
+  .nav-bar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: var(--background-color1);
+  }
+  .other-content {
+    margin-left: 25%;
+  }
+  .navigation-option {
+    display: block;
+    padding: 1rem;
+    text-decoration: none;
+    font-size: x-large;
+    cursor: pointer;
+    color: var(--font-color);
+  }
+  .navigation-option:hover {
+    background-color: var(--hover-background-color);
+    color: var(--hover-font-color);
+  }
+  .active {
+    background-color: var(--active-background-color);
+    color: var(--hover-font-color);
+  }
+  /* Bordered and Centered CSS */
+  .bordered {
+    border: 1px solid var(--hover-background-color);
+    width: 400px;
+  }
+  .bordered-centered {
+    text-align: center;
+    border-bottom: 1px solid var(--hover-background-color);
+  }
+  
+  .bordered-centered:nth-last-child() {
+    border-bottom: none;
+  }
+  
+  /* Horizontal Nav-Bar */
+  .horizontal-nav-bar {
+    overflow: hidden;
+    /* background-color: #333; */
+    margin: 0;
+    padding: 0;
+    background-color: var(--background-color1);
+    list-style-type: none;
+  }
+  .navigation-option-horizontal {
+    float: left;
+  }
+  .navigation-option-horizontal .navigation-option {
+    /* color: black; */
+    color: var(--font-color);
+    text-align: center;
+    padding: 1.03rem;
+    text-decoration: none;
+  }
+  .navigation-option-horizontal .navigation-option:hover {
+    background-color: var(--hover-background-color);
+  }
+  /* .fixed-horizontal-bar {
+    position: fixed;
+    top: 0;
+    width: 75%;
+  } */
+  
+  /* DropDown content on Nav-Bar */
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    z-index: 1;
+    min-width: 200px;
+    background-color: var(--background-color1);
+  }
+  .dropdown-link {
+    text-decoration: none;
+    display: block;
+    text-align: left;
+    padding: 1rem;
+    color: var(--font-color);
+  }
+  .dropdown-nav:hover .dropdown-content {
+    display: block;
+  }
+  .dropdown-link:hover {
+    background-color: var(--hover-background-color);
+    color: var(--hover-font-color);
+  }
+  
+  @media only screen and (max-width: 900px) {
+    .fixed-vertical-bar {
+      /* width: 100%;
+      height: auto;
+      position: fixed; */
+      display: none;
+    }
+    .fixed-vertical-bar .navigation-option {
+      float: left;
+    }
+    .fixed-vertical-bar .bordered-centered {
+      border: none;
+    }
+    .other-content {
+      margin-left: 0;
+    }
+    .other-content .horizontal-nav-bar {
+      position: fixed;
+      top: 0;
+      width: 100%;
+    }
+  }
+  @media only screen and (max-width: 400px) {
+    .fixed-vertical-bar {
+      display: none;
+    }
+    .other-content .horizontal-nav-bar {
+      display: block;
+    }
+    .other-content {
+      margin: 0;
+    }
+  }
+  

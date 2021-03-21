@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./navigationstyles.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <ul class="fixed-vertical-bar">
+      <li class="li-element">
+        <a href="#home" class="active navigation-option bordered-centered"
+          >Home</a
+        >
+      </li>
+      <li class="li-element">
+        <a href="#home" class="navigation-option bordered-centered">About</a>
+      </li>
+
+      <li class="li-element">
+        <a href="#home" class="navigation-option bordered-centered">More</a>
+      </li>
+    </ul>
+
+    <div class="other-content">
+      <div>
+        <ul class="horizontal-nav-bar fixed-horizontal-bar">
+          <li class="navigation-option-horizontal">
+            <a href="#home" class="active navigation-option">Home</a>
+          </li>
+          <li class="navigation-option-horizontal">
+            <a href="#home" class="navigation-option">About</a>
+          </li>
+
+          <li class="navigation-option-horizontal">
+            <a href="#home" class="navigation-option">More</a>
+          </li>
+          <li
+            style="float: right;"
+            class="navigation-option-horizontal dropdown-nav"
+          >
+            <a href="#home" class="navigation-option">Contact</a>
+            <div class="dropdown-content">
+              <a class="dropdown-link" href="#link">Phone</a>
+              <a class="dropdown-link" href="#link">Email</a>
+              <a class="dropdown-link" href="#link">Facebook</a>
+            </div>
+          </li>
+        </ul>
+      </div>
+      <h1 style="padding-top: 50px;">Vertical Nav Bar</h1>
+      <div>
+        <ul class="nav-bar">
+          <li><a class="active navigation-option">Home</a></li>
+          <li><a class="navigation-option">About</a></li>
+
+          <li><a class="navigation-option">More</a></li>
+        </ul>
+      </div>
+      <h1>Bordered and Centered</h1>
+      <div>
+        <ul class="nav-bar bordered">
+          <li>
+            <a class="active navigation-option bordered-centered">Home</a>
+          </li>
+          <li><a class="navigation-option bordered-centered">About</a></li>
+
+          <li><a class="navigation-option bordered-centered">More</a></li>
+        </ul>
+      </div>
+    </div>
+  </body>
+</html>

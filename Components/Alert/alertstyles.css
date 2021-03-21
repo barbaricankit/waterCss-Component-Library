@@ -1,0 +1,45 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  .alerts {
+    border: 1px solid gray;
+    border-radius: 5px;
+    max-width: 40%;
+    margin: 2rem;
+  }
+  
+  .alert {
+    padding: 1rem;
+    margin: 1rem;
+  }
+  .alert-text {
+    position: relative;
+    bottom: 3px;
+  }
+  .error-alert-background {
+    background-color: rgb(253, 236, 234);
+  }
+  .alert-image {
+    width: 4%;
+  }
+  .warning-alert-background {
+    background-color: rgb(255, 244, 229);
+  }
+  .info-alert-background {
+    background-color: rgb(232, 244, 253);
+  }
+  .success-alert-background {
+    background-color: rgb(237, 247, 237);
+  }
+  .alert-header {
+    position: relative;
+    bottom: 0.3rem;
+    left: 0.5rem;
+    font-size: large;
+  }
+  .desc-alert-text {
+    position: relative;
+    left: 2.1rem;
+    font-size: small;
+  }
+  

@@ -1,0 +1,66 @@
+.avatar-images {
+    border: 1px solid black;
+    padding: 2rem;
+    border-radius: 10px;
+    text-align: center;
+    max-width: 40%;
+  }
+  .small-avatar {
+    width: 50px;
+    border-radius: 50%;
+  }
+  
+  .medium-avatar {
+    width: 60px;
+    border-radius: 50%;
+  }
+  .big-avatar {
+    width: 80px;
+    border-radius: 50%;
+  }
+  #copy-css-btn {
+    margin: 1rem 0.5rem;
+    padding: 1rem;
+    border-radius: 10px;
+    background-color: blueviolet;
+  }
+  
+  .double-letter-avatar {
+    background-color: rgb(127, 35, 180);
+    padding: 1rem;
+    border: 1px solid black;
+    border-radius: 50%;
+  }
+  .single-letter-avatar {
+    background-color: rgb(214, 57, 57);
+    padding: 1rem 1.2rem;
+    border: 1px solid black;
+    border-radius: 50%;
+  }
+  
+  .square-avatar {
+    width: 10%;
+    height: auto;
+    margin: 0.5rem;
+  }
+  
+  .avatar-badge {
+    position: relative;
+  
+    border: 1px solid white;
+    border-radius: 50%;
+    background-color: chartreuse;
+    margin: 0.5rem;
+    padding: 0rem 0.5rem;
+    right: 0.8rem;
+    bottom: 0.3rem;
+  }
+  .avatar-on-avatar {
+    position: relative;
+    right: 1.1rem;
+    bottom: 0.3rem;
+    border-radius: 50%;
+    width: 30px;
+    border: 1px solid wheat;
+  }
+  
