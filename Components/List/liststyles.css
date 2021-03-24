@@ -2,7 +2,7 @@
     border: 1px solid black;
     padding: 2rem;
     border-radius: 10px;
-    max-width: 40%;
+    
   }
   .stacked-lists {
     list-style-type: none;
@@ -18,11 +18,15 @@
     border-top-left-radius: 25px;
     border-top-right-radius: 25px;
   }
-  .stacked-list-item:last-of-type {
+  .stacked-list-item:nth-of-type(2) {
     border-bottom: 0.1rem solid rgb(235, 238, 240);
+  
+    position: relative;
+  }
+  .stacked-list-item:last-of-type{
+    
     border-bottom-left-radius: 25px;
     border-bottom-right-radius: 25px;
-    position: relative;
   }
   .selected-list {
     background-color: rgb(39, 104, 202);

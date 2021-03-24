@@ -1,12 +1,44 @@
+@import "./Components/Avatar/avatarstyles.css";
+@import "./Components/Alert/alertstyles.css";
+@import "./Components/Button/buttonstyles.css";
+@import "./Components/Input/inputstyles.css";
+@import "./Components/List/liststyles.css";
+@import "./Components/Modal/modalstyles.css";
+@import "./Components/Card/cardstyles.css";
+@import "./Components/Image/imagestyles.css";
+@import "./Components/Toast/toaststyles.css";
+@import "./Components/TextUtilities/textutilitiesstyles.css";
+@import "./Components/Navigation/navigationstyles.css";
+.component-library-page{
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  grid-template-areas:
+  "nav main" ;
+}
+.nav-bar{
+grid-area: nav;
 
-.component-btns {
-    display: block;
-    padding: 1rem;
-    width: 20%;
-    margin: 1rem;
-    background-color: rgb(43, 198, 226);
-  }
+padding: 1rem;
+ position: fixed;
+top:0;
+border-right: 1px solid grey;
+height:100%;
+}
+.component-details{
+  grid-area: main;
+  
+ 
+}
+.components{
+  display: flex;
+  flex-direction: column;
+  padding-right: 3rem;
+}
+.component-desc{
+  padding: 1rem;
+}
   a {
     text-decoration: none;
     font-size: large;
   }
+

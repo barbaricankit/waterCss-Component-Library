@@ -4,7 +4,7 @@ body {
   .alerts {
     border: 1px solid gray;
     border-radius: 5px;
-    max-width: 40%;
+   
     margin: 2rem;
   }
   
