@@ -1,12 +1,9 @@
 .modal {
     border: 1px solid black;
-  
-    
   }
-  
   .modal-title {
     padding: 1rem;
-  
+    border-bottom: 1px solid black;
     position: relative;
   }
   .close-modal {
@@ -20,10 +17,12 @@
     display: flex;
     justify-content: flex-end;
     padding: 1rem;
+    border-top: 1px solid black;
   }
   .modal-txt {
     text-align: center;
     font-size: larger;
+    padding: 2rem;
   }
   .modal-btn {
     padding: 1rem;

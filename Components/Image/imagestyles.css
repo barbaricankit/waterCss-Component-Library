@@ -4,7 +4,7 @@
   .image:hover {
     border: 1px solid #777;
   }
-  .image img {
+  img {
     width: 100%;
     height: auto;
   }
@@ -20,18 +20,11 @@
     float: left;
     padding: 1rem;
   }
-  .responsive-round-img {
-    width: 30%;
-  }
-  .responsive-round-img .image {
-    border: none;
-  }
-  .responsive-round-img .image:hover {
-    border: none;
-  }
   .round-img {
     border: 1px solid #777;
     border-radius: 50%;
+    width:300px;
+    height:300px; 
   }
   @media only screen and (max-width: 1300px) {
     .responsive-img {

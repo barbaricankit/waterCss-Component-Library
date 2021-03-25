@@ -4,42 +4,41 @@ body {
   .alerts {
     border: 1px solid gray;
     border-radius: 5px;
-   
     margin: 2rem;
   }
-  
   .alert {
     padding: 1rem;
     margin: 1rem;
   }
   .alert-text {
     position: relative;
-    bottom: 3px;
+    bottom: 1rem;
   }
-  .error-alert-background {
-    background-color: rgb(253, 236, 234);
-  }
-  .alert-image {
+  .alert-icon {
     width: 4%;
   }
-  .warning-alert-background {
-    background-color: rgb(255, 244, 229);
+  .error-alert {
+    background-color: rgb(255, 68, 61);
   }
-  .info-alert-background {
-    background-color: rgb(232, 244, 253);
+ 
+  .warning-alert {
+    background-color: rgb(253, 193, 108);
   }
-  .success-alert-background {
-    background-color: rgb(237, 247, 237);
+  .info-alert {
+    background-color: rgb(185, 219, 245);
+  }
+  .success-alert {
+    background-color: rgb(147, 243, 147);
   }
   .alert-header {
     position: relative;
-    bottom: 0.3rem;
-    left: 0.5rem;
-    font-size: large;
+    bottom: 0.7rem;
+    left: 0.2rem;
+    font-size: x-large;
   }
   .desc-alert-text {
     position: relative;
-    left: 2.1rem;
     font-size: small;
+    bottom: 0.2rem;
   }
   

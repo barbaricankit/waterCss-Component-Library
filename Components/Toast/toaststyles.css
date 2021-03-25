@@ -22,7 +22,7 @@
     left: 30%;
     border-radius: 5px;
     position: fixed;
-    top: 30px;
+    top: 80px;
   }
   .show {
     visibility: visible;
@@ -35,7 +35,7 @@
       opacity: 0;
     }
     to {
-      top: 30px;
+      top: 80px;
       opacity: 1;
     }
   }
@@ -45,7 +45,7 @@
       opacity: 0;
     }
     to {
-      top: 30px;
+      top: 80px;
       opacity: 1;
     }
   }
@@ -55,13 +55,13 @@
       opacity: 0;
     }
     to {
-      top: 30px;
+      top: 80px;
       opacity: 1;
     }
   }
   @keyframes fadeout {
     from {
-      top: 30px;
+      top: 80px;
       opacity: 1;
     }
     to {

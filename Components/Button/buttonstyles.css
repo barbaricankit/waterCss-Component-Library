@@ -8,10 +8,9 @@ body {
     padding: 1rem;
     text-align: center;
   }
-  
   .primary-btn {
     padding: 0.5rem 1rem;
-    background-color: #1976d2;
+    background-color: var(--primary-btn-color);
     color: white;
     line-height: 1.75;
     font-weight: 600;
@@ -20,11 +19,6 @@ body {
     margin: 0.5rem;
     cursor: pointer;
   }
-  
-  .default-btn {
-    background-color: #e0e0e0;
-    color: black;
-  }
   .text-btn {
     background-color: transparent;
     cursor: pointer;
@@ -32,7 +26,7 @@ body {
     line-height: 1.75;
     font-weight: 600;
     letter-spacing: 0.02857em;
-    color: #1976d2;
+    color: var(--primary-btn-color);
   }
   .secondary-btn {
     background-color: transparent;
@@ -41,7 +35,7 @@ body {
     line-height: 1.75;
     font-weight: 600;
     letter-spacing: 0.02857em;
-    color: #1976d2;
+    color: var(--primary-btn-color);
     border: 1px solid black;
     border-radius: 3px;
     padding: 0.5rem 1rem;
@@ -54,13 +48,13 @@ body {
   .floating-action-icon-btn {
     width: 56px;
     height: 56px;
-    background-color: #1976d2;
+    background-color: var(--floating-btn-color);
     border-radius: 50%;
     color: white;
     line-height: 1.5;
     text-align: center;
   }
   .red-background-btn {
-    background-color: rgb(220, 0, 78);
+    background-color: var(--floating-btn-color);
   }
   

@@ -1,50 +1,48 @@
 body {
     margin: 0;
   }
-  :root {
-    --background-color1: #f1f1f1;
-    --hover-background-color: #555;
-    --active-background-color: #4caf50;
-    --font-color: #000;
-    --hover-font-color: white;
-  }
-  /* Fixed Vertical Nav-bar */
   .fixed-vertical-bar {
-    width: 25%;
+    width: 10rem;
     height: 100%;
     position: fixed;
-    
     list-style-type: none;
     margin: 0;
+    margin-top: 53.9375px;
     padding: 0;
-    background-color: var(--background-color1);
+    background-color: #EFF6FF;
     top: 0;
   }
-  /* Vertical Nav-Bar */
-  .nav-bar {
+  .vertical-nav-bar {
     list-style-type: none;
     margin: 0;
     padding: 0;
     background-color: var(--background-color1);
   }
-  .other-content {
-    margin-left: 25%;
+  .component-details {
+    margin-left: 12rem;
+    margin-top: 5rem;
+    width: 80%;
+    position: relative;
+    top:3rem;
   }
+ 
   .navigation-option {
     display: block;
     padding: 1rem;
     text-decoration: none;
-    font-size: x-large;
+    font-size:large;
     cursor: pointer;
     color: var(--font-color);
   }
   .navigation-option:hover {
-    background-color: var(--hover-background-color);
-    color: var(--hover-font-color);
+    color: var(--active-background-color);
+    padding-left:3rem;
+  
   }
   .active {
-    background-color: var(--active-background-color);
-    color: var(--hover-font-color);
+    /* background-color: var(--active-background-color); */
+    color: var(--active-background-color);
+    
   }
   /* Bordered and Centered CSS */
   .bordered {
@@ -59,21 +57,17 @@ body {
   .bordered-centered:nth-last-child() {
     border-bottom: none;
   }
-  
-  /* Horizontal Nav-Bar */
   .horizontal-nav-bar {
-    overflow: hidden;
-    /* background-color: #333; */
     margin: 0;
     padding: 0;
-    background-color: var(--background-color1);
+    background-color: var( --horizontal-navbar-background-color);
     list-style-type: none;
+    z-index:2;
   }
   .navigation-option-horizontal {
     float: left;
   }
   .navigation-option-horizontal .navigation-option {
-    /* color: black; */
     color: var(--font-color);
     text-align: center;
     padding: 1.03rem;
@@ -82,11 +76,11 @@ body {
   .navigation-option-horizontal .navigation-option:hover {
     background-color: var(--hover-background-color);
   }
-  /* .fixed-horizontal-bar {
+  .fixed-horizontal-bar {
     position: fixed;
     top: 0;
-    width: 75%;
-  } */
+    width: 100%;
+  }
   
   /* DropDown content on Nav-Bar */
   
@@ -94,10 +88,10 @@ body {
     display: none;
     position: absolute;
     z-index: 1;
-    min-width: 200px;
+    /* min-width: 200px; */
     background-color: var(--background-color1);
   }
-  .dropdown-link {
+  .dropdown-content .dropdown-link {
     text-decoration: none;
     display: block;
     text-align: left;

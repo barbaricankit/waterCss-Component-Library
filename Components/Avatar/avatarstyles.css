@@ -1,3 +1,4 @@
+@import "../../styles.css";
 .avatar-images {
     border: 1px solid black;
     padding: 2rem;
@@ -14,7 +15,7 @@
     width: 60px;
     border-radius: 50%;
   }
-  .big-avatar {
+  .large-avatar {
     width: 80px;
     border-radius: 50%;
   }
@@ -22,7 +23,7 @@
     margin: 1rem 0.5rem;
     padding: 1rem;
     border-radius: 10px;
-    background-color: blueviolet;
+    background-color: var(--active-background-color);
   }
   
   .double-letter-avatar {
@@ -38,18 +39,11 @@
     border-radius: 50%;
   }
   
-  .square-avatar {
-    width: 10%;
-    height: auto;
-    margin: 0.5rem;
-  }
-  
   .avatar-badge {
     position: relative;
-  
-    border: 1px solid white;
+    border: 2px solid white;
     border-radius: 50%;
-    background-color: chartreuse;
+    background-color: rgb(87, 165, 9);
     margin: 0.5rem;
     padding: 0rem 0.5rem;
     right: 0.8rem;
@@ -61,6 +55,6 @@
     bottom: 0.3rem;
     border-radius: 50%;
     width: 30px;
-    border: 1px solid wheat;
+    border: 2px solid wheat;
   }
   
