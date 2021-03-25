@@ -1,0 +1,32 @@
+.modal {
+    border: 1px solid black;
+  }
+  .modal-title {
+    padding: 1rem;
+    border-bottom: 1px solid black;
+    position: relative;
+  }
+  .close-modal {
+    padding: 0rem 0.6rem 0.2rem 0.6rem;
+    position: absolute;
+    font-size: x-large;
+    right: 2rem;
+    bottom: 1.2rem;
+  }
+  .modal-btns {
+    display: flex;
+    justify-content: flex-end;
+    padding: 1rem;
+    border-top: 1px solid black;
+  }
+  .modal-txt {
+    text-align: center;
+    font-size: larger;
+    padding: 2rem;
+  }
+  .modal-btn {
+    padding: 1rem;
+    margin-right: 0.5rem;
+    font-size: medium;
+  }
+  

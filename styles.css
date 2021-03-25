@@ -1,0 +1,38 @@
+@import "./Components/Avatar/avatarstyles.css";
+@import "./Components/Alert/alertstyles.css";
+@import "./Components/Button/buttonstyles.css";
+@import "./Components/Input/inputstyles.css";
+@import "./Components/List/liststyles.css";
+@import "./Components/Modal/modalstyles.css";
+@import "./Components/Card/cardstyles.css";
+@import "./Components/Image/imagestyles.css";
+@import "./Components/Toast/toaststyles.css";
+@import "./Components/TextUtilities/textutilitiesstyles.css";
+@import "./Components/Navigation/navigationstyles.css";
+:root {
+  --horizontal-navbar-background-color:#93C5FD;
+  --vertical-navbar-background-color:#60A5FA;
+  --primary-btn-color:#1D4ED8;
+  --floating-btn-color:#3B82F6;
+  --background-color1: #60A5FA;
+  --hover-background-color: #537cd4;
+  --active-background-color: #073ed6;
+  --font-color: #000;
+  --hover-font-color: white;
+}
+*{
+  margin:0;
+  border:0;
+}
+.component-desc{
+  padding: 1rem;
+}
+  a {
+    text-decoration: none;
+    font-size: large;
+  }
+
+
+.code{
+margin:1rem;
+}

@@ -1,0 +1,72 @@
+:root {
+    --background-color: #4caf50;
+    --font-color: white;
+    --toast-background-color: tomato;
+  }
+  
+  .toastBtn {
+    padding: 1rem;
+    background-color: var(--background-color);
+    color: var(--font-color);
+    cursor: pointer;
+  }
+  .toastDesc1,
+  .toastDesc2 {
+    visibility: hidden;
+    border: 1px solid var(--font-color);
+    padding: 1rem;
+    background-color: var(--toast-background-color);
+    width: 40%;
+    text-align: center;
+    /* margin: 1rem auto; */
+    left: 30%;
+    border-radius: 5px;
+    position: fixed;
+    top: 80px;
+  }
+  .show {
+    visibility: visible;
+    -webkit-animation: fadein 0.5s, fadeout 0.5s;
+    animation: fadein 0.5s, fadeout 0.5s 2.5s;
+  }
+  @-webkit-keyframes fadein {
+    from {
+      top: 0;
+      opacity: 0;
+    }
+    to {
+      top: 80px;
+      opacity: 1;
+    }
+  }
+  @keyframes fadein {
+    from {
+      top: 0;
+      opacity: 0;
+    }
+    to {
+      top: 80px;
+      opacity: 1;
+    }
+  }
+  @-webkit-keyframes fadeout {
+    from {
+      top: 0;
+      opacity: 0;
+    }
+    to {
+      top: 80px;
+      opacity: 1;
+    }
+  }
+  @keyframes fadeout {
+    from {
+      top: 80px;
+      opacity: 1;
+    }
+    to {
+      top: 0;
+      opacity: 0;
+    }
+  }
+  
