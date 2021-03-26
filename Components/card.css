@@ -1,0 +1,141 @@
+@import "../Button/button.css";
+.card-img {
+    height: auto;
+    width: 100%;
+    cursor: pointer;
+  }
+  *{
+    box-sizing: border-box;
+  }
+  .card {
+    position: relative;
+    width: 25%;
+    
+  }
+  .cards {
+    display: flex;
+  
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin:1rem;
+  }
+  .left-badge {
+    background-color: var(--pink-badge-color);
+    padding: 0.1rem 0.3rem;
+    position: absolute;
+    left: 0;
+    top: 1.2rem;
+    color: var(--white-color);
+    cursor: pointer;
+  }
+  .right-badge {
+    background-color: var(--blue-badge-color);
+    padding: 0.1rem 0.3rem;
+    position: absolute;
+    right: 0;
+    top: 1.2rem;
+    color: var(--white-color);
+    cursor: pointer;
+  }
+  .dismiss-badge {
+    border-radius: 50%;
+    color: var(--white-color);
+    padding: 0.2rem 0.6rem;
+    font-size: large;
+    position: absolute;
+    right: 0.5rem;
+    top: 0.5rem;
+    cursor: pointer;
+  }
+  
+  .card-with-text {
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    box-shadow: 5px 5px 5px var(--box-shadow-color);
+    transition: 0.3s;
+    margin: 0;
+    font-size: 1rem;
+    border: 1px solid grey;
+    
+  }
+  .card-details{
+    margin:0;
+    padding:0.5rem; 
+  }
+  .brand-name{
+    margin:0;
+    padding:0.2rem; 
+  }
+  .product-name{
+    margin:0;
+    font-weight: 400;
+    padding:0.2rem; 
+  }
+  .product-price{
+    margin:0;
+    
+    padding:0.3rem; 
+  }
+  .horizontal-card-img{
+    width: 60%;
+    cursor: pointer;
+  }
+  .horizontal-card-with-text{
+    display: flex;
+    height:auto;
+    width: 60%;
+    margin: 0;
+    font-size: 1rem;
+    border: 1px solid var(--gray-border);
+    box-shadow: 5px 5px 5px var(--box-shadow-color);
+    transition: 0.3s;
+  }
+  .product-details{
+    margin:0;
+    font-weight: 400;
+    padding:0.2rem; 
+  }
+  .text-overlay-card-image{
+   
+    height: auto;
+    width: 100%;
+    cursor: pointer;
+  }
+  .card-with-text-overlay{
+    position: relative;
+    box-shadow: 5px 5px 5px var(--box-shadow-color);
+    transition: 0.3s;
+    margin: 0;
+  }
+  .overlay-text{
+    position: absolute;
+    font-weight: 400;
+    font-size: large;
+    color:rgb(48, 46, 41);
+    left:50%;
+    top:30%;
+    transform: translate(-50%,-50%);
+  
+  }
+  .text-card{
+    border: 1px solid var(--gray-border);
+    text-align: justify;
+    width: 30%;
+    box-shadow: 5px 5px 5px var(--box-shadow-color);
+  }
+  @media only screen and (max-width:600px){
+    .card{
+      width: 60%;
+      height: auto;
+      margin: 1rem;
+    }
+    .horizontal-card-with-text{
+      width: 60%;
+      flex-direction: column;
+    }
+    .horizontal-card-img{
+      width: 100%;
+      cursor: pointer;
+    }
+  }

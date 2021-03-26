@@ -1,0 +1,54 @@
+.simple-textbox,
+.filled-textbox,
+.validation-textbox {
+  display: flex;
+  flex-wrap: wrap;
+  border: 1px solid var(--gray-border);
+  border-radius: 5px;
+  margin: 2rem;
+  padding: 2rem;
+}
+.textbox {
+  padding: 0.5rem 0;
+  border: none;
+  border-bottom: 1px solid;
+  font-size: large;
+  margin: 0.8rem;
+  margin-top: 0;
+}
+.filled {
+  background-color: var(--filled-color);
+  padding: 1rem;
+}
+.outlined {
+  border: 1px solid  ;
+  padding: 1rem;
+  border-radius: 3px;
+}
+.text-label {
+  margin: 0.8rem;
+  margin-bottom: 0;
+  font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+  font-size: 1rem;
+  line-height: 1;
+  font-weight: 400;
+}
+#form-disabled-textbox {
+  color: var(--filled-color);
+}
+.required-textbox {
+  padding: 0;
+  margin: 0;
+}
+.validation-fail {
+  position: relative;
+}
+.validation-error {
+  border-color: var(--validation-error-color);
+}
+.error-text {
+  position: absolute;
+  top: 1.7rem;
+  right: 0.8rem;
+  color: var(--validation-error-color);
+}

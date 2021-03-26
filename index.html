@@ -1,0 +1,705 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles.css" />
+    <title>FluidCSS | By Ankit</title>
+</head>
+
+<body>
+    <nav>
+        <ul class="horizontal-nav-bar fixed-horizontal-bar">
+            <li class="navigation-option-horizontal">
+                <a href="#home" class="navigation-option">waterCSS</a>
+            </li>
+            <li class="navigation-option-horizontal">
+                <a href="#home" class="navigation-option">About</a>
+            </li>
+            <li class="navigation-option-horizontal">
+                <a href="#home" class="navigation-option">More</a>
+            </li>
+            <li style="float: right;" class="navigation-option-horizontal dropdown-nav">
+                <a href="#home" class="navigation-option">Contact</a>
+                <div class="dropdown-content">
+                    <a class="dropdown-link" href="#link">Phone</a>
+                    <a class="dropdown-link" href="#link">Email</a>
+                    <a class="dropdown-link" href="#link">Facebook</a>
+                </div>
+            </li>
+        </ul>
+
+        <ul class="fixed-vertical-bar">
+            <li class="li-element">
+                <a href="#avatar" class="active navigation-option">Avatar</a>
+            </li>
+            <li class="li-element">
+                <a href="#alert" class="navigation-option">Alert</a>
+            </li>
+            <li class="li-element">
+                <a href="#button" class="navigation-option">Button</a>
+            </li>
+            <li class="li-element">
+                <a href="#input" class="navigation-option">Input</a>
+            </li>
+
+            <li class="li-element">
+                <a href="#list" class="navigation-option">Lists</a>
+            </li>
+            <li class="li-element">
+                <a href="#modals" class="navigation-option">Modals</a>
+            </li>
+            <li class="li-element">
+                <a href="#card" class="navigation-option">Cards</a>
+            </li>
+            <li class="li-element">
+                <a href="#toast" class="navigation-option">Toasts</a>
+            </li>
+            <li class="li-element">
+                <a href="#text-util" class="navigation-option">Text utilities</a>
+            </li>
+            <li class="li-element">
+                <a href="#image" class="navigation-option">Images</a>
+            </li>
+        </ul>
+    </nav>
+    <div class="component-details">
+        <article id="avatar">
+            <h1>Avatars</h1>
+            <h2>Image Avatars</h2>
+            <div class="avatar-images">
+                <img class="avatar-sm"
+                    src="https://scontent-bom1-1.xx.fbcdn.net/v/t1.0-9/24131585_1571374906276687_711347645622454609_n.jpg?_nc_cat=106&ccb=1-3&_nc_sid=174925&_nc_ohc=wD4SYfDWQfMAX-5x9p2&_nc_ht=scontent-bom1-1.xx&oh=dd07f6352ccd84881847abe318416473&oe=606C5842" />
+                <img class="avatar-sm"
+                    src="https://scontent-bom1-1.xx.fbcdn.net/v/t1.0-9/24131585_1571374906276687_711347645622454609_n.jpg?_nc_cat=106&ccb=1-3&_nc_sid=174925&_nc_ohc=wD4SYfDWQfMAX-5x9p2&_nc_ht=scontent-bom1-1.xx&oh=dd07f6352ccd84881847abe318416473&oe=606C5842" />
+                <img class="avatar-sm" src="https://via.placeholder.com/150" />
+            </div>
+            <div class="code">
+                <iframe
+                    src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=auto&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=48px&ph=63px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%2520%253Cimg%2520class%253D%2522avatar-sm%2522%2509%2520src%253D%2522https%253A%252F%252Fvia.placeholder.com%252F150%2522%2520%250A%2509alt%253D%2522https%253A%252F%252Fvia.placeholder.com%252F150%2522%250A%2520%2520%252F%253E%250A%2520%2520"
+                    style="width: 90%; height:300px; border:0; transform: scale(1); overflow:hidden;"
+                    sandbox="allow-scripts allow-same-origin">
+                </iframe>
+            </div>
+            <h2>Letter Avatars</h2>
+            <div class="avatar-images">
+                <span class="avatar-single-letter">A</span>
+                <span class="avatar-double-letter ">AS</span>
+            </div>
+            <div class="code">
+                <iframe
+                    src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=auto&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=48px&ph=63px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%2520%253Cspan%2520class%253D%2522avatar-single-letter%2522%253EA%253C%252Fspan%253E%250A%2520%253Cspan%2520class%253D%2522avatar-double-letter%2520%2522%253EAS%253C%252Fspan%253E"
+                    style="width:  90%; height: 300px; border:0; transform: scale(1); overflow:hidden;"
+                    sandbox="allow-scripts allow-same-origin">
+                </iframe>
+            </div>
+            <h2>Sizes</h2>
+            <div class="avatar-images">
+                <img class="avatar-sm"
+                    src="https://scontent-bom1-1.xx.fbcdn.net/v/t1.0-9/24131585_1571374906276687_711347645622454609_n.jpg?_nc_cat=106&ccb=1-3&_nc_sid=174925&_nc_ohc=wD4SYfDWQfMAX-5x9p2&_nc_ht=scontent-bom1-1.xx&oh=dd07f6352ccd84881847abe318416473&oe=606C5842" />
+                <img class="avatar-med"
+                    src="https://scontent-bom1-1.xx.fbcdn.net/v/t1.0-9/24131585_1571374906276687_711347645622454609_n.jpg?_nc_cat=106&ccb=1-3&_nc_sid=174925&_nc_ohc=wD4SYfDWQfMAX-5x9p2&_nc_ht=scontent-bom1-1.xx&oh=dd07f6352ccd84881847abe318416473&oe=606C5842" />
+                <img class="avatar-lg"
+                    src="https://scontent-bom1-1.xx.fbcdn.net/v/t1.0-9/24131585_1571374906276687_711347645622454609_n.jpg?_nc_cat=106&ccb=1-3&_nc_sid=174925&_nc_ohc=wD4SYfDWQfMAX-5x9p2&_nc_ht=scontent-bom1-1.xx&oh=dd07f6352ccd84881847abe318416473&oe=606C5842" />
+            </div>
+            <div class="code">
+                <iframe
+                    src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=auto&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=48px&ph=63px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cimg%2520class%253D%2522avatar-sm%2522%2520src%253D%2522https%253A%252F%252Fvia.placeholder.com%252F150%2522%2520%252F%253E%250A%253Cimg%2520class%253D%2522avatar-med%2522%2520src%253D%2522https%253A%252F%252Fvia.placeholder.com%252F150%2522%2520%252F%253E%250A%253Cimg%2520class%253D%2522avatar-lg%2522%2520src%253D%2522https%253A%252F%252Fvia.placeholder.com%252F150%2522%2520%252F%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520"
+                    style="width: 90%; height: 300px; border:0; transform: scale(1); overflow:hidden;"
+                    sandbox="allow-scripts allow-same-origin">
+                </iframe>
+            </div>
+            <h2>Badge Avatars</h2>
+            <div class="avatar-images">
+                <div>
+                    <img class="avatar-med"
+                        src="https://scontent-bom1-1.xx.fbcdn.net/v/t1.0-9/24131585_1571374906276687_711347645622454609_n.jpg?_nc_cat=106&ccb=1-3&_nc_sid=174925&_nc_ohc=wD4SYfDWQfMAX-5x9p2&_nc_ht=scontent-bom1-1.xx&oh=dd07f6352ccd84881847abe318416473&oe=606C5842" />
+                    <span class="avatar-badge"></span>
+                    <img class="avatar-med"
+                        src="https://scontent-bom1-1.xx.fbcdn.net/v/t1.0-9/24131585_1571374906276687_711347645622454609_n.jpg?_nc_cat=106&ccb=1-3&_nc_sid=174925&_nc_ohc=wD4SYfDWQfMAX-5x9p2&_nc_ht=scontent-bom1-1.xx&oh=dd07f6352ccd84881847abe318416473&oe=606C5842" />
+                    <img class="avatar-on-avatar"
+                        src="https://pbs.twimg.com/profile_images/1339286888180379649/dKntjLzq_400x400.jpg" />
+                </div>
+            </div>
+            <div class="code">
+                <iframe
+                    src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=auto&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=48px&ph=63px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cimg%2520class%253D%2522avatar-med%2522%2520src%253D%2522https%253A%252F%252Fvia.placeholder.com%252F150%2522%2520%252F%253E%250A%253Cspan%2520class%253D%2522avatar-badge%2522%253E%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A%253Cimg%2520class%253D%2522avatar-med%2522%2520src%253D%2522https%253A%252F%252Fvia.placeholder.com%252F150%2522%2520%252F%253E%250A%253Cspan%2520class%253D%2522avatar-on-avatar%2522%253E%253C%252Fspan%253E"
+                    style="width: 90%; height: 300px; border:0; transform: scale(1); overflow:hidden;"
+                    sandbox="allow-scripts allow-same-origin">
+                </iframe>
+            </div>
+        </article>
+        <article id="alert">
+            <h1>Alerts</h1>
+            <h2>Simple Alerts</h2>
+            <div class="alerts">
+                <div class="alert error-alert">
+                    <svg class="alert-icon" focusable="false" viewBox="0 0 24 24" aria-hidden="true">
+                        <path
+                            d="M11 15h2v2h-2zm0-8h2v6h-2zm.99-5C6.47 2 2 6.48 2 12s4.47 10 9.99 10C17.52 22 22 17.52 22 12S17.52 2 11.99 2zM12 20c-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8-3.58 8-8 8z">
+                        </path>
+                    </svg>
+                    <span class="alert-text">This is an error alert</span>
+                </div>
+                <div class="alert warning-alert">
+                    <svg class="alert-icon" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                        stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                            d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z" />
+                    </svg>
+                    <span class="alert-text">This is a warning alert</span>
+                </div>
+                <div class="alert info-alert">
+                    <svg class="alert-icon" focusable="false" viewBox="0 0 24 24" aria-hidden="true">
+                        <path
+                            d="M11,9H13V7H11M12,20C7.59,20 4,16.41 4,12C4,7.59 7.59,4 12,4C16.41,4 20,7.59 20, 12C20,16.41 16.41,20 12,20M12,2A10,10 0 0,0 2,12A10,10 0 0,0 12,22A10,10 0 0,0 22,12A10, 10 0 0,0 12,2M11,17H13V11H11V17Z">
+                        </path>
+                    </svg>
+                    <span class="alert-text">This is an info alert</span>
+                </div>
+                <div class="alert success-alert">
+                    <svg class="alert-icon" focusable="false" viewBox="0 0 24 24" aria-hidden="true">
+                        <path
+                            d="M20,12A8,8 0 0,1 12,20A8,8 0 0,1 4,12A8,8 0 0,1 12,4C12.76,4 13.5,4.11 14.2, 4.31L15.77,2.74C14.61,2.26 13.34,2 12,2A10,10 0 0,0 2,12A10,10 0 0,0 12,22A10,10 0 0, 0 22,12M7.91,10.08L6.5,11.5L11,16L21,6L19.59,4.58L11,13.17L7.91,10.08Z">
+                        </path>
+                    </svg>
+                    <span class="alert-text">This is a success alert</span>
+                </div>
+            </div>
+            <div class="code">
+                <iframe
+                    src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=auto&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=48px&ph=63px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522error-alert%2520alert%2522%253E%250A%2520%2509%253Cimg%2520src%253D%2522https%253A%252F%252Fvia.placeholder.com%252F150%2522%2520class%253D%2522alert-icon%2522%2520%252F%253E%250A%2509%253Cspan%2520class%253D%2522alert-text%2522%253EThis%2520is%2520an%2520error%2520alert%253C%252Fspan%253E%250A%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522warning-alert%2520alert%2522%253E%250A%2509%253Cimg%2520src%253D%2522https%253A%252F%252Fvia.placeholder.com%252F150%2522%2520class%253D%2522alert-icon%2522%2520%252F%253E%250A%2509%253Cspan%2520class%253D%2522alert-text%2522%253EThis%2520is%2520a%2520warning%2520alert%253C%252Fspan%253E%250A%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522info-alert%2520alert%2522%253E%250A%2509%253Cimg%2520src%253D%2522https%253A%252F%252Fvia.placeholder.com%252F150%2522%2520class%253D%2522alert-icon%2522%2520%252F%253E%250A%2509%253Cspan%2520class%253D%2522alert-text%2522%253EThis%2520is%2520an%2520info%2520alert%253C%252Fspan%253E%250A%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522success-alert%2520alert%2522%253E%250A%2509%253Cimg%2520src%253D%2522https%253A%252F%252Fvia.placeholder.com%252F150%2522%2520class%253D%2522alert-icon%2522%2520%252F%253E%250A%2509%253Cspan%2520class%253D%2522alert-text%2522%253EThis%2520is%2520a%2520success%2520alert%253C%252Fspan%253E%250A%253C%252Fdiv%253E"
+                    style="width: 90%; height: 458px; border:0; transform: scale(1); overflow:hidden;"
+                    sandbox="allow-scripts allow-same-origin">
+                </iframe>
+            </div>
+            <h2>Descriptive Alerts</h2>
+            <div class="alerts">
+                <div class="alert error-alert">
+                    <svg class="alert-icon" focusable="false" viewBox="0 0 24 24" aria-hidden="true">
+                        <path
+                            d="M11 15h2v2h-2zm0-8h2v6h-2zm.99-5C6.47 2 2 6.48 2 12s4.47 10 9.99 10C17.52 22 22 17.52 22 12S17.52 2 11.99 2zM12 20c-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8-3.58 8-8 8z">
+                        </path>
+                    </svg>
+                    <span class="alert-header">Error</span>
+                    <div class="alert-desc">This is an error alert</div>
+                </div>
+                <div class="alert warning-alert">
+                    <svg class="alert-icon" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                        stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                            d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z" />
+                    </svg>
+                    <span class="alert-header">Warning</span>
+                    <div class="alert-desc">This is an warning alert</div>
+                </div>
+                <div class="alert info-alert">
+                    <svg class="alert-icon" focusable="false" viewBox="0 0 24 24" aria-hidden="true">
+                        <path
+                            d="M11,9H13V7H11M12,20C7.59,20 4,16.41 4,12C4,7.59 7.59,4 12,4C16.41,4 20,7.59 20, 12C20,16.41 16.41,20 12,20M12,2A10,10 0 0,0 2,12A10,10 0 0,0 12,22A10,10 0 0,0 22,12A10, 10 0 0,0 12,2M11,17H13V11H11V17Z">
+                        </path>
+                    </svg>
+                    <span class="alert-header">Info</span>
+                    <div class="alert-desc">This is an info alert</div>
+                </div>
+                <div class="alert success-alert">
+                    <svg class="alert-icon" focusable="false" viewBox="0 0 24 24" aria-hidden="true">
+                        <path
+                            d="M20,12A8,8 0 0,1 12,20A8,8 0 0,1 4,12A8,8 0 0,1 12,4C12.76,4 13.5,4.11 14.2, 4.31L15.77,2.74C14.61,2.26 13.34,2 12,2A10,10 0 0,0 2,12A10,10 0 0,0 12,22A10,10 0 0, 0 22,12M7.91,10.08L6.5,11.5L11,16L21,6L19.59,4.58L11,13.17L7.91,10.08Z">
+                        </path>
+                    </svg>
+                    <span class="alert-header">Success</span>
+                    <div class="alert-desc">This is a success alert</div>
+                </div>
+            </div>
+            <div class="code">
+                <iframe
+                    src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=auto&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=48px&ph=63px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522error-alert%2520alert%2522%253E%250A%2520%2509%253Cimg%2520src%253D%2522https%253A%252F%252Fvia.placeholder.com%252F150%2522%2520class%253D%2522alert-icon%2522%2520%252F%253E%250A%2509%253Cspan%2520class%253D%2522alert-header%2522%253EError%253C%252Fspan%253E%250A%2509%253Cdiv%2520class%253D%2522alert-desc%2522%253EThis%2520is%2520an%2520error%2520alert%253C%252Fdiv%253E%250A%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522warning-alert%2520alert%2522%253E%250A%2509%253Cimg%2520src%253D%2522https%253A%252F%252Fvia.placeholder.com%252F150%2522%2520class%253D%2522alert-icon%2522%2520%252F%253E%250A%2509%253Cspan%2520class%253D%2522alert-header%2522%253EWarning%253C%252Fspan%253E%250A%2509%253Cspan%2520class%253D%2522alert-desc%2522%253EThis%2520is%2520a%2520warning%2520alert%253C%252Fspan%253E%250A%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522info-alert%2520alert%2522%253E%250A%2509%253Cimg%2520src%253D%2522https%253A%252F%252Fvia.placeholder.com%252F150%2522%2520class%253D%2522alert-icon%2522%2520%252F%253E%250A%2509%253Cspan%2520class%253D%2522alert-header%2522%253EInfo%253C%252Fspan%253E%250A%2509%253Cspan%2520class%253D%2522alert-desc%2522%253EThis%2520is%2520an%2520info%2520alert%253C%252Fspan%253E%250A%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522success-alert%2520alert%2522%253E%250A%2509%253Cimg%2520src%253D%2522https%253A%252F%252Fvia.placeholder.com%252F150%2522%2520class%253D%2522alert-icon%2522%2520%252F%253E%250A%2509%253Cspan%2520class%253D%2522alert-header%2522%253ESuccess%253C%252Fspan%253E%250A%2509%253Cspan%2520class%253D%2522alert-desc%2522%253EThis%2520is%2520a%2520success%2520alert%253C%252Fspan%253E%250A%253C%252Fdiv%253E"
+                    style="width: 90%; height: 530px; border:0; transform: scale(1); overflow:hidden;"
+                    sandbox="allow-scripts allow-same-origin">
+                </iframe>
+            </div>
+        </article>
+        <article id="button">
+            <h1>Buttons</h1>
+            <h2>Primary Buttons</h2>
+            <div class="buttons">
+                <button class="btn-primary">PRIMARY</button>
+                <button class="btn-text">LINK</button>
+                <button class="btn-secondary">SECONDARY</button>
+            </div>
+            <div class="code"><iframe
+                    src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=auto&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=48px&ph=63px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cbutton%2520class%253D%2522btn-primary%2522%253EPRIMARY%253C%252Fbutton%253E%250A%253Cbutton%2520class%253D%2522btn-text%2522%253ELINK%253C%252Fbutton%253E%250A%253Cbutton%2520class%253D%2522btn-secondary%2522%253ESECONDARY%253C%252Fbutton%253E"
+                    style="width: 90%; height: 250px; border:0; transform: scale(1); overflow:hidden;"
+                    sandbox="allow-scripts allow-same-origin">
+                </iframe></div>
+            <h2>Floating Action Buttons</h2>
+            <div class="buttons">
+                <button class="btn-fab">
+                    <svg focusable="false" viewBox="0 0 24 24" aria-hidden="true">
+                        <path d="M19 13h-6v6h-2v-6H5v-2h6V5h2v6h6v2z"></path>
+                    </svg>
+                </button>
+                <button class="btn-fab btn-bg-color">
+                    <svg focusable="false" viewBox="0 0 24 24" aria-hidden="true">
+                        <path
+                            d="M3 17.25V21h3.75L17.81 9.94l-3.75-3.75L3 17.25zM20.71 7.04c.39-.39.39-1.02 0-1.41l-2.34-2.34a.9959.9959 0 00-1.41 0l-1.83 1.83 3.75 3.75 1.83-1.83z">
+                        </path>
+                    </svg>
+                </button>
+            </div>
+            <div class="code"><iframe
+                    src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=auto&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=48px&ph=63px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cbutton%2520class%253D%2522btn-fab%2522%253E%250A%2520%2520%2520%2509%2509%253Csvg%2520focusable%253D%2522false%2522%2520viewBox%253D%25220%25200%252024%252024%2522%2520aria-hidden%253D%2522true%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cpath%2520d%253D%2522M19%252013h-6v6h-2v-6H5v-2h6V5h2v6h6v2z%2522%253E%253C%252Fpath%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fsvg%253E%250A%253C%252Fbutton%253E%250A%253Cbutton%2520class%253D%2522btn-fab%2520btn-bg-color%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Csvg%2520focusable%253D%2522false%2522%2520viewBox%253D%25220%25200%252024%252024%2522%2520aria-hidden%253D%2522true%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cpath%2520d%253D%2522M3%252017.25V21h3.75L17.81%25209.94l-3.75-3.75L3%252017.25zM20.71%25207.04c.39-.39.39-1.02%25200-%2509%2509%2509%2509%25091.41l-2.34-2.34a.9959.9959%25200%252000-1.41%25200l-1.83%25201.83%25203.75%25203.75%25201.83-1.83z%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fpath%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fsvg%253E%250A%253C%252Fbutton%253E"
+                    style="width: 100%; height: 450px; border:0; transform: scale(1); overflow:hidden;"
+                    sandbox="allow-scripts allow-same-origin">
+                </iframe></div>
+        </article>
+        <article id="input">
+            <h1>Input Fields</h1>
+            <h2>Text Field</h2>
+
+            <div class="simple-textbox">
+                <div style="margin-top: 1rem">
+                    <label for="inputbox" class="text-label" hidden> Required *</label>
+                    <div>
+                        <span class="validation-input">
+                            <input id="inputbox" class="textbox" type="text" placeholder="Standard" />
+                            <span class="error-text" hidden>Error</span>
+                        </span>
+                    </div>
+                </div>
+                <div>
+                    <label for="inputbox" class="text-label" hidden> Required *</label>
+                    <div>
+                        <span class="validation-input">
+                            <input id="inputbox" class="textbox filled" type="text" placeholder="Filled" />
+                            <span class="error-text" hidden>Error</span>
+                        </span>
+                    </div>
+                </div>
+                <div>
+                    <label for="inputbox" class="text-label" hidden> Required *</label>
+                    <div>
+                        <span class="validation-input">
+                            <input id="inputbox" class="textbox outlined" type="text" placeholder="Outlined" />
+                            <span class="error-text" hidden>Error</span>
+                        </span>
+                    </div>
+                </div>
+            </div>
+            <div class="code">
+                <iframe
+                    src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=auto&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=48px&ph=63px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cinput%2520id%253D%2522inputbox%2522%2520class%253D%2522textbox%2522%2520type%253D%2522text%2522%2520placeholder%253D%2522Standard%2522%2520%252F%253E%250A%253Cinput%2520id%253D%2522inputbox%2522%2520class%253D%2522textbox%2520filled%2522%2520type%253D%2522text%2522%2520placeholder%253D%2522Filled%2522%2520%252F%253E%250A%253Cinput%2520id%253D%2522inputbox%2522%2520class%253D%2522textbox%2520outlined%2522%2520type%253D%2522text%2522%2520placeholder%253D%2522Outlined%2522%2520%252F%253E"
+                    style="width: 100%; height: 250px; border:0; transform: scale(1); overflow:hidden;"
+                    sandbox="allow-scripts allow-same-origin">
+                </iframe>
+            </div>
+            <h2>Simple Form Fields</h2>
+            <div class="simple-textbox">
+                <div>
+                    <label for="inputbox" class="text-label">Required *</label>
+                    <div>
+                        <input id="inputbox" class="textbox" type="text" placeholder="Standard" />
+                    </div>
+                </div>
+                <div>
+                    <label for="inputbox" class="text-label">Disabled</label>
+                    <div>
+                        <input disabled id="inputbox" class="textbox" type="text" value="Disabled Text" />
+                    </div>
+                </div>
+                <div>
+                    <label for="inputbox" class="text-label">Enter Password</label>
+                    <div>
+                        <input class="textbox" type="password" placeholder="Password" />
+                    </div>
+                </div>
+                <div>
+                    <label for="inputbox" class="text-label"> Read Only</label>
+                    <div>
+                        <input readonly class="textbox" type="text" placeholder="Read Only" />
+                    </div>
+                </div>
+                <div>
+                    <label for="inputbox" class="text-label"> Number</label>
+                    <div>
+                        <input class="textbox" type="number" />
+                    </div>
+                </div>
+                <div>
+                    <label for="inputbox" class="text-label"> Search</label>
+                    <div>
+                        <input class="textbox" type="search" placeholder="Enter text to search" />
+                    </div>
+                </div>
+            </div>
+            <div class="code">
+                <iframe
+                    src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=auto&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=48px&ph=63px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Clabel%2520for%253D%2522inputbox%2522%2520class%253D%2522text-label%2522%253ERequired%2520*%253C%252Flabel%253E%250A%253Cdiv%253E%253Cinput%2520id%253D%2522inputbox%2522%2520class%253D%2522textbox%2522%2520type%253D%2522text%2522%2520placeholder%253D%2522Standard%2522%2520%252F%253E%253C%252Fdiv%253E%250A%253Clabel%2520for%253D%2522inputbox%2522%2520class%253D%2522text-label%2522%253E%2520Disabled%253C%252Flabel%253E%250A%253Cdiv%253E%253Cinput%2520disabled%2520id%253D%2522inputbox%2522%2520class%253D%2522textbox%2522%2520type%253D%2522text%2522%2520value%253D%2522Disabled%2520Text%2522%2520%252F%253E%253C%252Fdiv%253E%250A%253Cdiv%253E%253Cinput%2520class%253D%2522textbox%2522%2520type%253D%2522password%2522%2520placeholder%253D%2522Password%2522%2520%252F%253E%253C%252Fdiv%253E%250A%253Clabel%2520for%253D%2522inputbox%2522%2520class%253D%2522text-label%2522%253E%2520Read%2520Only%253C%252Flabel%253E%250A%253Cdiv%253E%253Cinput%2520readonly%2520class%253D%2522textbox%2522%2520type%253D%2522text%2522%2520placeholder%253D%2522Read%2520Only%2522%2520%252F%253E%253C%252Fdiv%253E%250A%253Clabel%2520for%253D%2522inputbox%2522%2520class%253D%2522text-label%2522%253E%2520Number%253C%252Flabel%253E%250A%253Cdiv%253E%253Cinput%2520class%253D%2522textbox%2522%2520type%253D%2522number%2522%2520%252F%253E%253C%252Fdiv%253E%250A%253Clabel%2520for%253D%2522inputbox%2522%2520class%253D%2522text-label%2522%253E%2520Search%253C%252Flabel%253E%250A%253Cdiv%253E%253Cinput%2520class%253D%2522textbox%2522%2520type%253D%2522search%2522%2520%252F%253E"
+                    style="width: 100%; height: 368px; border:0; transform: scale(1); overflow:hidden;"
+                    sandbox="allow-scripts allow-same-origin">
+                </iframe>
+            </div>
+            <h2>Filled Form Fields</h2>
+            <div class="simple-textbox">
+                <div>
+                    <label for="inputbox " class="text-label"> Required *</label>
+                    <div>
+                        <input id="inputbox" class="textbox filled" type="text" placeholder="Standard" />
+                    </div>
+                </div>
+
+                <div>
+                    <label for="inputbox" class="text-label"> Disabled</label>
+                    <div>
+                        <input disabled id="inputbox" class="textbox filled" type="text" value="Disabled Text" />
+                    </div>
+                </div>
+                <div>
+                    <label for="inputbox" class="text-label">Enter Password</label>
+                    <div>
+                        <input class="textbox" type="password" placeholder="Password" />
+                    </div>
+                </div>
+                <div>
+                    <label for="inputbox" class="text-label"> Read Only</label>
+                    <div>
+                        <input readonly class="textbox read-only-text filled" type="text" placeholder="Read Only" />
+                    </div>
+                </div>
+                <div>
+                    <label for="inputbox" class="text-label"> Number</label>
+                    <div>
+                        <input class="textbox filled" type="number" />
+                    </div>
+                </div>
+                <div>
+                    <label for="inputbox" class="text-label"> Search</label>
+                    <div>
+                        <input class="textbox filled" type="search" />
+                    </div>
+                </div>
+            </div>
+            <div class="code">
+                <iframe
+                    src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=auto&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=48px&ph=63px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Clabel%2520for%253D%2522inputbox%2522%2520class%253D%2522text-label%2522%253ERequired%2520*%253C%252Flabel%253E%250A%253Cdiv%253E%253Cinput%2520id%253D%2522inputbox%2522%2520class%253D%2522textbox%2520filled%2522%2520type%253D%2522text%2522%2520placeholder%253D%2522Standard%2522%2520%252F%253E%253C%252Fdiv%253E%250A%253Clabel%2520for%253D%2522inputbox%2522%2520class%253D%2522text-label%2522%253E%2520Disabled%253C%252Flabel%253E%250A%253Cdiv%253E%253Cinput%2520disabled%2520id%253D%2522inputbox%2522%2520class%253D%2522textbox%2520filled%2522%2520type%253D%2522text%2522%2520value%253D%2522Disabled%2520Text%2522%2520%252F%253E%253C%252Fdiv%253E%250A%253Cdiv%253E%253Cinput%2520class%253D%2522textbox%2520filled%2522%2520type%253D%2522password%2522%2520placeholder%253D%2522Password%2522%2520%252F%253E%253C%252Fdiv%253E%250A%253Clabel%2520for%253D%2522inputbox%2522%2520class%253D%2522text-label%2522%253E%2520Read%2520Only%253C%252Flabel%253E%250A%253Cdiv%253E%253Cinput%2520readonly%2520class%253D%2522textbox%2520filled%2522%2520type%253D%2522text%2522%2520placeholder%253D%2522Read%2520Only%2522%2520%252F%253E%253C%252Fdiv%253E%250A%253Clabel%2520for%253D%2522inputbox%2522%2520class%253D%2522text-label%2522%253E%2520Number%253C%252Flabel%253E%250A%253Cdiv%253E%253Cinput%2520class%253D%2522textbox%2520filled%2522%2520type%253D%2522number%2522%2520%252F%253E%253C%252Fdiv%253E%250A%253Clabel%2520for%253D%2522inputbox%2522%2520class%253D%2522text-label%2522%253E%2520Search%253C%252Flabel%253E%250A%253Cdiv%253E%253Cinput%2520class%253D%2522textbox%2520filled%2522%2520type%253D%2522search%2522%2520%252F%253E"
+                    style="width: 100%; height: 368px; border:0; transform: scale(1); overflow:hidden;"
+                    sandbox="allow-scripts allow-same-origin">
+                </iframe>
+            </div>
+            <h1>Validation Error</h1>
+            <div class="simple-textbox">
+                <div>
+                    <label for="inputbox" class="text-label"> Required *</label>
+                    <div>
+                        <span class="validation-fail">
+                            <input id="inputbox" class="textbox validation-error" type="text" placeholder="Standard" />
+                            <span class="error-text">Error</span>
+                        </span>
+                    </div>
+                </div>
+                <div style="margin-top: 1.2rem;">
+                    <span class="validation-fail">
+                        <input class="textbox validation-error" type="password" placeholder="Password" />
+                        <span class="error-text">Incorrect Password</span>
+                    </span>
+                </div>
+            </div>
+            <div class="code">
+                <iframe
+                    src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=auto&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=48px&ph=63px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Clabel%2520for%253D%2522inputbox%2522%2520class%253D%2522text-label%2522%253E%2520Required%2520*%253C%252Flabel%253E%250A%253Cdiv%253E%253Cspan%2520class%253D%2522validation-fail%2522%253E%250A%2509%2520%253Cinput%2520id%253D%2522inputbox%2522%2520class%253D%2522textbox%2520validation-error%2522%2520type%253D%2522text%2522%2520placeholder%253D%2522Standard%2522%2520%252F%253E%250A%2520%2509%2520%253Cspan%2520class%253D%2522error-text%2522%253EError%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%253C%252Fspan%253E%250A%253C%252Fdiv%253E%250A%250A%253Cspan%2520class%253D%2522validation-fail%2522%253E%250A%253Cinput%2520class%253D%2522textbox%2520validation-error%2522%2520type%253D%2522password%2522%2520placeholder%253D%2522Password%2522%2520%252F%253E%250A%253Cspan%2520class%253D%2522error-text%2522%253EIncorrect%2520Password%253C%252Fspan%253E%250A%253C%252Fspan%253E"
+                    style="width: 100%; height: 400px; border:0; transform: scale(1); overflow:hidden;"
+                    sandbox="allow-scripts allow-same-origin">
+                </iframe>
+            </div>
+        </article>
+        <article id="list">
+            <h1>Lists</h1>
+            <h1>Unordered Lists</h1>
+            <div class="lists">
+                <ul>
+                    <li>Item 1</li>
+                    <li>Item 2</li>
+                    <li>Item 3</li>
+                    <li>Item 4</li>
+                </ul>
+            </div>
+            <div class="code">
+                <iframe
+                    src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=auto&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=48px&ph=63px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cul%253E%250A%2509%253Cli%253EItem%25201%253C%252Fli%253E%250A%2509%253Cli%253EItem%25202%253C%252Fli%253E%250A%2509%253Cli%253EItem%25203%253C%252Fli%253E%250A%2509%253Cli%253EItem%25204%253C%252Fli%253E%250A%253C%252Ful%253E"
+                    style="width: 100%; height: 278px; border:0; transform: scale(1); overflow:hidden;"
+                    sandbox="allow-scripts allow-same-origin">
+                </iframe>
+            </div>
+            <h1>Ordered Lists</h1>
+            <div class="lists">
+                <ol>
+                    <li>Item 1</li>
+                    <li>Item 2</li>
+                    <li>Item 3</li>
+                    <li>Item 4</li>
+                </ol>
+            </div>
+            <div class="code">
+                <iframe
+                    src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=auto&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=48px&ph=63px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Col%253E%250A%2509%253Cli%253EItem%25201%253C%252Fli%253E%250A%2509%253Cli%253EItem%25202%253C%252Fli%253E%250A%2509%253Cli%253EItem%25203%253C%252Fli%253E%250A%2509%253Cli%253EItem%25204%253C%252Fli%253E%250A%253C%252Fol%253E"
+                    style="width: 100%; height: 278px; border:0; transform: scale(1); overflow:hidden;"
+                    sandbox="allow-scripts allow-same-origin">
+                </iframe>
+            </div>
+            <h1>Stacked Lists</h1>
+            <div class="lists">
+                <ul class="stacked-lists">
+                    <li class="stacked-list-item">Simple List Item</li>
+                    <li class="stacked-list-item">List Item with Badge<span class="badges">4</span></li>
+                    <li class="stacked-list-item disabled">Disabled List Item</li>
+                    <li class="stacked-list-item selected-list">Current Selected Item</li>
+                    <li class="stacked-list-item action-list">Action List Item</li>
+                </ul>
+            </div>
+            <div class="code">
+                <iframe
+                    src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=auto&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=48px&ph=63px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cul%2520class%253D%2522stacked-lists%2522%253E%250A%2520%2520%2520%2520%253Cli%2520class%253D%2522stacked-list-item%2522%253ESimple%2520List%2520Item%253C%252Fli%253E%250A%2520%2520%2520%2520%253Cli%2520class%253D%2522stacked-list-item%2522%253EList%2520Item%2520with%2520Badge%253Cspan%2520class%253D%2522badges%2522%253E4%253C%252Fspan%253E%253C%252Fli%253E%250A%2520%2520%2520%2520%253Cli%2520class%253D%2522stacked-list-item%2520disabled%2522%253EDisabled%2520List%2520Item%253C%252Fli%253E%250A%2520%2520%2520%2520%253Cli%2520class%253D%2522stacked-list-item%2520selected-list%2522%253ECurrent%2520Selected%2520Item%253C%252Fli%253E%250A%2520%2520%2520%2520%253Cli%2520class%253D%2522stacked-list-item%2520action-list%2522%253EAction%2520List%2520Item%253C%252Fli%253E%250A%253C%252Ful%253E"
+                    style="width: 100%; height: 350px; border:0; transform: scale(1); overflow:hidden;"
+                    sandbox="allow-scripts allow-same-origin">
+                </iframe>
+            </div>
+        </article>
+        <article id="modals">
+            <h1>Simple Modal</h1>
+            <div class="modal">
+                <h2 class="modal-title">
+                    Modal Title<button class="close-modal">x</button>
+                </h2>
+                <p class="modal-txt">This is a simple modal</p>
+                <div class="btn-modal">
+                    <button class="btn-text">Close</button>
+                    <button class="btn-primary">Save</button>
+                </div>
+            </div>
+            <div class="code">
+                <iframe
+                    src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=auto&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=48px&ph=63px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522modal%2522%253E%250A%2520%2520%2520%2520%2520%253Ch2%2520class%253D%2522modal-title%2522%253EModal%2520Title%250A%2509%2509%2520%253Cbutton%2520class%253D%2522close-modal%2522%253Ex%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%253C%252Fh2%253E%250A%253Cp%2520class%253D%2522modal-txt%2522%253EThis%2520is%2520a%2520simple%2520modal%253C%252Fp%253E%250A%253Cdiv%2520class%253D%2522btn-modal%2522%253E%250A%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn-modal%2522%253EClose%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn-modal%2522%253ESave%2520Changes%253C%252Fbutton%253E%250A%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
+                    style="width: 100%; height: 350px; border:0; transform: scale(1); overflow:hidden;"
+                    sandbox="allow-scripts allow-same-origin">
+                </iframe>
+            </div>
+        </article>
+        <article id="card">
+            <h1>Cards</h1>
+            <h1>Card with Badges</h1>
+            <div class="cards">
+                <div class="card">
+                    <img class="card-img"
+                        src="https://assets.myntassets.com/dpr_2,q_60,w_210,c_limit,fl_progressive/assets/images/2211749/2018/5/18/136ea17e-0c65-46c5-bd1f-1b64b151f0121526641430882-Roadster-Men-Blue-Analogue-Watch-MFB-PN-WTH-S9689G-1561526641430612-1.jpg" />
+                    <span class="left-badge"><small>New</small></span>
+                </div>
+                <div class="card">
+                    <img class="card-img"
+                        src="https://assets.myntassets.com/dpr_2,q_60,w_210,c_limit,fl_progressive/assets/images/2211749/2018/5/18/136ea17e-0c65-46c5-bd1f-1b64b151f0121526641430882-Roadster-Men-Blue-Analogue-Watch-MFB-PN-WTH-S9689G-1561526641430612-1.jpg" />
+                    <span class="left-badge"><small>New</small></span>
+                    <span class="right-badge"><small>Discount</small></span>
+                </div>
+            </div>
+            <div class="code">
+                <iframe
+                    src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=auto&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=48px&ph=63px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522card%2522%253E%250A%2520%2520%2520%2520%2520%253Cimg%2520class%253D%2522card-img%2522%2520src%253D%2522https%253A%252F%252Fvia.placeholder.com%252F150%2522%2520alt%253D%2522%2522%2520%252F%253E%250A%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522left-badge%2522%253E%253Csmall%253ENew%253C%252Fsmall%253E%253C%252Fspan%253E%250A%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522card%2522%253E%250A%2520%2520%2520%2520%2520%253Cimg%2520class%253D%2522card-img%2522%2520src%253D%2522https%253A%252F%252Fvia.placeholder.com%252F150%2522%2520alt%253D%2522%2522%2520%252F%253E%250A%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522left-badge%2522%253E%253Csmall%253ENew%253C%252Fsmall%253E%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522right-badge%2522%253E%253Csmall%253EDiscount%253C%252Fsmall%253E%253C%252Fspan%253E%250A%253C%252Fdiv%253E"
+                    style="width: 100%; height: 332px; border:0; transform: scale(1); overflow:hidden;"
+                    sandbox="allow-scripts allow-same-origin">
+                </iframe>
+            </div>
+            <h1>Card with Dismiss</h1>
+            <div class="cards">
+                <div class="card">
+                    <img class="card-img"
+                        src="https://assets.myntassets.com/dpr_2,q_60,w_210,c_limit,fl_progressive/assets/images/2211749/2018/5/18/136ea17e-0c65-46c5-bd1f-1b64b151f0121526641430882-Roadster-Men-Blue-Analogue-Watch-MFB-PN-WTH-S9689G-1561526641430612-1.jpg" />
+                    <span class="dismiss-badge">x</span>
+                </div>
+            </div>
+            <div class="code">
+                <iframe
+                    src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=auto&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=48px&ph=63px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522card%2522%253E%250A%2520%2520%2520%2520%2520%253Cimg%2520class%253D%2522card-img%2522%2520src%253D%2522https%253A%252F%252Fvia.placeholder.com%252F150%2522%2520alt%253D%2522%2522%2520%252F%253E%250A%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522dismiss-badge%2522%253Ex%253C%252Fspan%253E%250A%253C%252Fdiv%253E"
+                    style="width: 100%; height: 242px; border:0; transform: scale(1); overflow:hidden;"
+                    sandbox="allow-scripts allow-same-origin">
+                </iframe>
+            </div>
+            <h1>Card with Text </h1>
+            <div class="cards">
+                <div class="card card-with-text">
+                    <img class="card-img"
+                        src="https://assets.myntassets.com/dpr_2,q_60,w_210,c_limit,fl_progressive/assets/images/2211749/2018/5/18/136ea17e-0c65-46c5-bd1f-1b64b151f0121526641430882-Roadster-Men-Blue-Analogue-Watch-MFB-PN-WTH-S9689G-1561526641430612-1.jpg" />
+                    <div class="card-details">
+                        <h3 class="brand-name">Roadster</h3>
+                        <h4 class="product-name">Men Analogue Watch</h4>
+                        <div class="product-price">
+                            <small>Rs. 1574 <s>Rs 3499</s> (55% Off)</small>
+                        </div>
+                    </div>
+                </div>
+                <div class="card card-with-text">
+                    <img class="card-img"
+                        src="https://assets.myntassets.com/dpr_2,q_60,w_210,c_limit,fl_progressive/assets/images/2211749/2018/5/18/136ea17e-0c65-46c5-bd1f-1b64b151f0121526641430882-Roadster-Men-Blue-Analogue-Watch-MFB-PN-WTH-S9689G-1561526641430612-1.jpg" />
+                    <div class="card-details">
+                        <h3 class="brand-name">Roadster</h3>
+                        <h4 class="product-name">Men Analogue Watch</h4>
+                        <div class="product-price">
+                            <small>Rs. 1574 <s>Rs 3499</s> (55% Off)</small>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="code">
+                <iframe
+                    src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=auto&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=48px&ph=63px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522card%2520card-with-text%2522%253E%250A%2520%2520%2520%2520%2520%253Cimg%2520class%253D%2522card-img%2522%2520src%253D%2522https%253A%252F%252Fvia.placeholder.com%252F150%2522%2520alt%253D%2522%2522%2520%252F%253E%250A%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-details%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ch3%2520class%253D%2522brand-name%2522%253ERoadster%253C%252Fh3%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ch4%2520class%253D%2522product-name%2522%253EMen%2520Analogue%2520Watch%253C%252Fh4%253E%250A%2509%2509%2520%2520%253Cdiv%2520class%253D%2522product-price%2522%253E%250A%2509%2509%2509%2520%2520%2520%253Csmall%253ERs.%25201574%2520%253Cs%253ERs%25203499%253C%252Fs%253E%2520%2855%2525%2520Off%29%253C%252Fsmall%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2509%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
+                    style="width: 100%; height: 350px; border:0; transform: scale(1); overflow:hidden;"
+                    sandbox="allow-scripts allow-same-origin">
+                </iframe>
+            </div>
+            <div class="cards">
+                <div class="card horizontal-card-with-text">
+                    <img class="horizontal-card-img"
+                        src="https://assets.myntassets.com/dpr_2,q_60,w_210,c_limit,fl_progressive/assets/images/2211749/2018/5/18/136ea17e-0c65-46c5-bd1f-1b64b151f0121526641430882-Roadster-Men-Blue-Analogue-Watch-MFB-PN-WTH-S9689G-1561526641430612-1.jpg" />
+                    <div class="card-details">
+                        <h4 class="product-details">100% Original Products</h4>
+                        <h4 class="product-details">Free Delivery on order above Rs. 799</h4>
+                        <h4 class="product-details">Pay on delivery might be available</h4>
+                        <h4 class="product-details">Easy 30 days returns</h4>
+                        <h4 class="product-details">This item is only returnable and not exchangeable</h4>
+                    </div>
+                </div>
+            </div>
+            <div class="code">
+                <iframe
+                    src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=auto&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=48px&ph=63px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522card%2520horizontal-card-with-text%2522%253E%250A%2520%2520%2520%2520%2520%253Cimg%2520class%253D%2522horizontal-card-img%2522%2520src%253D%2522https%253A%252F%252Fvia.placeholder.com%252F150%2522%2520alt%253D%2522%2522%2520%252F%253E%250A%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-details%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ch4%2520class%253D%2522product-details%2522%253E100%2525%2520Original%2520Products%253C%252Fh4%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ch4%2520class%253D%2522product-details%2522%253EFree%2520Delivery%2520on%2520order%2520above%2520Rs.%2520799%253C%252Fh4%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ch4%2520class%253D%2522product-details%2522%253EPay%2520on%2520delivery%2520might%2520be%2520available%253C%252Fh4%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ch4%2520class%253D%2522product-details%2522%253EEasy%252030%2520days%2520returns%253C%252Fh4%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ch4%2520class%253D%2522product-details%2522%253EThis%2520item%2520is%2520only%2520returnable%2520and%2520not%2520exchangeable%253C%252Fh4%253E%250A%2509%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
+                    style="width: 100%; height: 350px; border:0; transform: scale(1); overflow:hidden;"
+                    sandbox="allow-scripts allow-same-origin">
+                </iframe>
+            </div>
+            <h1>Card with Text Overlay</h1>
+            <div class="cards">
+                <div class="card card-with-text-overlay">
+                    <img class="text-overlay-card-image"
+                        src="https://pixselo.com/wp-content/uploads/2018/03/dummy-placeholder-image-400x400.jpg" />
+                    <span class="overlay-text">OUT OF STOCK</span>
+                    <div class="card-details">
+                        <h3 class="brand-name">Roadster</h3>
+                        <h4 class="product-name">Men Analogue Watch</h4>
+
+                        <div class="product-price">
+                            <small>Rs. 1574 <s>Rs 3499</s> (55% Off)</small>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="code"><iframe
+                    src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=auto&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=48px&ph=63px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522card%2520card-with-text-overlay%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520class%253D%2522text-overlay-card-image%2522%2520src%253D%2522https%253A%252F%252Fpixselo.com%252Fwp-content%252Fuploads%252F2018%252F03%252Fdummy-%2509%2509%2509%2520%2520placeholder-image-400x400.jpg%2522%2520%252F%253E%250A%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522overlay-text%2522%253EOUT%2520OF%2520STOCK%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-details%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ch3%2520class%253D%2522brand-name%2522%253ERoadster%253C%252Fh3%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ch4%2520class%253D%2522product-name%2522%253EMen%2520Analogue%2520Watch%253C%252Fh4%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522product-price%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Csmall%253ERs.%25201574%2520%253Cs%253ERs%25203499%253C%252Fs%253E%2520%2855%2525%2520Off%29%253C%252Fsmall%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
+                    style="width: 1024px; height: 386px; border:0; transform: scale(1); overflow:hidden;"
+                    sandbox="allow-scripts allow-same-origin">
+                </iframe></div>
+            <h1>Card with only Text</h1>
+            <div class="cards">
+                <div class="card text-card">
+                    <div class="card-details">
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis exercitationem
+                            possimus
+                            voluptatibus, at hic illo. Atque praesentium, voluptatum id dolore ad enim quisquam libero
+                            cupiditate, sit
+                            soluta molestiae corporis doloribus!</p>
+
+                        <button class="btn-primary">Primary</button>
+                        <button class="btn-secondary">Secondary</button>
+                    </div>
+                </div>
+            </div>
+            <div class="code">
+                <iframe
+                    src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=auto&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=48px&ph=63px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522card%2520text-card%2522%253E%250A%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-details%2522%253E%250A%2520%2520%2520%2520%2520%253Cp%253ELorem%252C%2520ipsum%2520dolor%2520sit%2520amet%2520consectetur%2520adipisicing%2520elit.%2520Perspiciatis%2520exercitationem%2520possimus%2520%2509%2509%2520%2520%2520voluptatibus%252C%2520at%2520hic%2520illo.%2520Atque%2520praesentium%252C%2520voluptatum%2520id%2520dolore%2520ad%2520enim%2520quisquam%2520libero%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520cupiditate%252C%2520sit%2520soluta%2520molestiae%2520corporis%2520doloribus%21%253C%252Fp%253E%250A%2509%2520%253Cbutton%2520class%253D%2522btn-primary%2522%253EPrimary%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn-secondary%2522%253ESecondary%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
+                    style="width: 1024px; height: 332px; border:0; transform: scale(1); overflow:hidden;"
+                    sandbox="allow-scripts allow-same-origin">
+                </iframe>
+            </div>
+        </article>
+        <article id="toast">
+            <h1>Toasts</h1>
+            <button class="btn-primary btn-toast-1">Add to Cart</button>
+            <div class="toast-desc-1">Item was successfully added into the cart</div>
+            <button class="btn-secondary btn-toast-2">Load Data From Server</button>
+            <div class="toast-desc-2">There was an error to fetch the data</div>
+            <div class="code">
+                <iframe
+                    src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=auto&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=48px&ph=63px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cbutton%2520class%253D%2522toastBtn%2522%253EAdd%2520to%2520Cart%253C%252Fbutton%253E%250A%253Cdiv%2520class%253D%2522toastDesc%2522%253EItem%2520was%2520successfully%2520added%2520into%2520the%2520cart%253C%252Fdiv%253E%250A%250A%253Cbutton%2520class%253D%2522toastBtn%2522%253ELoad%2520Data%2520From%2520Server%253C%252Fbutton%253E%250A%253Cdiv%2520class%253D%2522toastDesc%2522%253EThere%2520was%2520an%2520error%2520to%2520fetch%2520the%2520data%253C%252Fdiv%253E"
+                    style="width: 100%; height: 260px; border:0; transform: scale(1); overflow:hidden;"
+                    sandbox="allow-scripts allow-same-origin">
+                </iframe>
+            </div>
+        </article>
+        <article id="text-util">
+            <div class="h1">Headers</div>
+            <div class="text-utilities">
+                <div class="h1">h1. Heading</div>
+                <div class="h2">h2. Heading</div>
+                <div class="h3">h3. Heading</div>
+                <div class="h4">h4. Heading</div>
+                <div class="h5">h5. Heading</div>
+                <div class="h6">h6. Heading</div>
+            </div>
+            <div class="h1">Text Sizes</div>
+            <div class="text-utilities">
+                <div class="text-sm">This is a small sized text</div>
+                <div class="text-med text-center">This is a medium sized center text</div>
+                <div class="text-lg text-gray">This is a large sized gray color text</div>
+            </div>
+            <div class="code">
+                <iframe
+                    src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=auto&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=48px&ph=63px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522h1%2522%253Eh1.%2520Heading%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522h2%2522%253Eh2.%2520Heading%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522h3%2522%253Eh3.%2520Heading%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522h4%2522%253Eh4.%2520Heading%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522h5%2522%253Eh5.%2520Heading%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522h6%2522%253Eh6.%2520Heading%253C%252Fdiv%253E%250A%250A%253Cdiv%2520class%253D%2522text-sm%2522%253EThis%2520is%2520a%2520small%2520sized%2520text%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522text-med%2520text-center%2522%253EThis%2520is%2520a%2520medium%2520sized%2520center%2520text%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522text-lg%2520text-gray%2522%253EThis%2520is%2520a%2520large%2520sized%2520gray%2520color%2520text%253C%252Fdiv%253E"
+                    style="width: 100%; height: 350px; border:0; transform: scale(1); overflow:hidden;"
+                    sandbox="allow-scripts allow-same-origin">
+                </iframe>
+            </div>
+        </article>
+        <article id="image">
+            <h1>Responsive</h1>
+            <div class="responsive-img">
+                <div class="image">
+                    <a target="_blank"
+                        href="https://assets.myntassets.com/dpr_2,q_60,w_210,c_limit,fl_progressive/assets/images/2211749/2018/5/18/136ea17e-0c65-46c5-bd1f-1b64b151f0121526641430882-Roadster-Men-Blue-Analogue-Watch-MFB-PN-WTH-S9689G-1561526641430612-1.jpg">
+                        <img src="https://assets.myntassets.com/dpr_2,q_60,w_210,c_limit,fl_progressive/assets/images/2211749/2018/5/18/136ea17e-0c65-46c5-bd1f-1b64b151f0121526641430882-Roadster-Men-Blue-Analogue-Watch-MFB-PN-WTH-S9689G-1561526641430612-1.jpg"
+                            alt="Cinque Terre" />
+                    </a>
+                    <div class="img-desc">Add a description of the image here</div>
+                </div>
+            </div>
+            <div class="responsive-img">
+                <div class="image">
+                    <a target="_blank"
+                        href="https://assets.myntassets.com/dpr_2,q_60,w_210,c_limit,fl_progressive/assets/images/2211749/2018/5/18/136ea17e-0c65-46c5-bd1f-1b64b151f0121526641430882-Roadster-Men-Blue-Analogue-Watch-MFB-PN-WTH-S9689G-1561526641430612-1.jpg">
+                        <img src="https://assets.myntassets.com/dpr_2,q_60,w_210,c_limit,fl_progressive/assets/images/2211749/2018/5/18/136ea17e-0c65-46c5-bd1f-1b64b151f0121526641430882-Roadster-Men-Blue-Analogue-Watch-MFB-PN-WTH-S9689G-1561526641430612-1.jpg"
+                            alt="Cinque Terre" />
+                    </a>
+                    <div class="img-desc">Add a description of the image here</div>
+                </div>
+            </div>
+            <div class="responsive-img">
+
+                <a target="_blank"
+                    href="https://assets.myntassets.com/dpr_2,q_60,w_210,c_limit,fl_progressive/assets/images/2211749/2018/5/18/136ea17e-0c65-46c5-bd1f-1b64b151f0121526641430882-Roadster-Men-Blue-Analogue-Watch-MFB-PN-WTH-S9689G-1561526641430612-1.jpg">
+                    <img class="round-img"
+                        src="https://assets.myntassets.com/dpr_2,q_60,w_210,c_limit,fl_progressive/assets/images/2211749/2018/5/18/136ea17e-0c65-46c5-bd1f-1b64b151f0121526641430882-Roadster-Men-Blue-Analogue-Watch-MFB-PN-WTH-S9689G-1561526641430612-1.jpg"
+                        alt="Cinque Terre" />
+                </a>
+            </div>
+            <div class="code">
+                <iframe
+                    src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=auto&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=48px&ph=63px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522responsive-img%2522%253E%250A%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522image%2522%253E%250A%2520%2520%2520%2520%2520%253Cimg%2520src%253D%2522https%253A%252F%252Fvia.placeholder.com%252F150%2522%252F%253E%250A%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522img-desc%2522%253EAdd%2520a%2520description%2520of%2520the%2520image%2520here%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E%250A%250A%253Cdiv%2520class%253D%2522responsive-img%2522%253E%250A%2520%2520%2509%2520%253Cimg%2520class%253D%2522round-img%2522%2520src%253D%2522https%253A%252F%252Fvia.placeholder.com%252F150%2522%2520%252F%253E%250A%253C%252Fdiv%253E"
+                    style="width: 100%; height: 350px; border:0; transform: scale(1); overflow:hidden;"
+                    sandbox="allow-scripts allow-same-origin">
+                </iframe>
+            </div>
+        </article>
+    </div>
+    <script src="./script.js"></script>
+</body>
+
+</html>

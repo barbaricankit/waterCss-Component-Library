@@ -1,0 +1,60 @@
+@import "./Components/avatar.css";
+@import "./Components/alert.css";
+@import "./Components/button.css";
+@import "./Components/input.css";
+@import "./Components/list.css";
+@import "./Components/modal.css";
+@import "./Components/card.css";
+@import "./Components/image.css";
+@import "./Components/toast.css";
+@import "./Components/textutilities.css";
+@import "./Components/navigation.css";
+:root {
+    --horizontal-navbar-background-color:#93C5FD;
+    --vertical-navbar-background-color:#60A5FA;
+    --fixed-vertical-navbar-background-color:#EFF6FF;
+    --btn-primary-color:#1D4ED8;
+    --floating-btn-color:#3B82F6;
+    --alert-bg-error-color: rgb(255, 68, 61);
+    --alert-bg-info-color: rgb(185, 219, 245);
+    --alert-bg-warning-color: rgb(253, 193, 108);
+    --alert-bg-success-color: rgb(147, 243, 147);
+    --avatar-single-letter-color:rgb(214, 57, 57);
+    --avatar-double-letter-color:rgb(127, 35, 180);
+    --avatar-badge-color:rgb(87, 165, 9);
+    --gray-border:gray;
+    --black-border:black;
+    --wheat-border:wheat;
+    --white-border:white;
+    --white-color:white;
+    --pink-badge-color:rgba(255, 63, 108, 0.8);
+    --blue-badge-color:rgba(56, 164, 226, 0.8);
+    --box-shadow-color:rgb(214, 212, 212);
+    --filled-color:rgba(128, 128, 128, 0.356);
+    --validation-error-color:red;
+    --selected-list-background-color:rgb(39, 104, 202);
+    --disabled-list-background-color:rgba(128, 128, 128, 0.247);
+    --disabled-list-color:rgba(0, 0, 0, 0.651);
+    --list-badge-color:rgb(233, 36, 30);
+    --action-list-color:rgb(111, 40, 177);
+    --stacked-list-border-color:rgb(235, 238, 240);
+    --stacked-background-color: rgba(206, 201, 201, 0.541);
+    --hover-background-color: #537cd4;
+    --active-background-color: #073ed6;
+    --black-font-color: #000;
+    --hover-font-color: white;
+  }
+  *{
+    margin:0;
+    border:0;
+  }
+  .component-desc{
+    padding: 1rem;
+  }
+  a {
+      text-decoration: none;
+      font-size: large;
+    }
+  .code {
+  margin:1rem;
+  }
