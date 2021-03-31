@@ -43,10 +43,12 @@
     --active-background-color: #073ed6;
     --black-font-color: #000;
     --hover-font-color: white;
+    --toast-background-color: tomato;
   }
   *{
     margin:0;
     border:0;
+    box-sizing: border-box;
   }
   .component-desc{
     padding: 1rem;

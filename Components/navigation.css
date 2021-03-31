@@ -1,6 +1,3 @@
-body {
-    margin: 0;
-  }
   .fixed-vertical-bar {
     width: 10rem;
     height: 100%;
@@ -25,7 +22,6 @@ body {
     position: relative;
     top:3rem;
   }
- 
   .navigation-option {
     display: block;
     padding: 1rem;
@@ -41,7 +37,6 @@ body {
   }
   .active {
     color: var(--active-background-color);
-    
   }
   .bordered {
     border: 1px solid var(--hover-background-color);
@@ -100,7 +95,6 @@ body {
     background-color: var(--hover-background-color);
     color: var(--hover-font-color);
   }
-  
   @media only screen and (max-width: 1100px) {
     .fixed-vertical-bar {
       display: none;

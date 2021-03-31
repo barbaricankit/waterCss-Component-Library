@@ -2,7 +2,6 @@
     border: 1px solid;
     padding: 2rem;
     border-radius: 10px;
-    
   }
   .stacked-lists {
     list-style-type: none;
@@ -21,11 +20,9 @@
   }
   .stacked-list-item:nth-of-type(2) {
     border-bottom: 0.1rem solid var(--stacked-list-border-color);
-  
     position: relative;
   }
-  .stacked-list-item:last-of-type{
-    
+  .stacked-list-item:last-of-type{ 
     border-bottom-left-radius: 25px;
     border-bottom-right-radius: 25px;
   }

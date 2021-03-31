@@ -4,9 +4,6 @@
     width: 100%;
     cursor: pointer;
   }
-  *{
-    box-sizing: border-box;
-  }
   .card {
     position: relative;
     width: 25%;
@@ -14,7 +11,6 @@
   }
   .cards {
     display: flex;
-  
     flex-wrap: wrap;
     justify-content: space-around;
     margin:1rem;
@@ -56,8 +52,7 @@
     transition: 0.3s;
     margin: 0;
     font-size: 1rem;
-    border: 1px solid grey;
-    
+    border: 1px solid var(--gray-border);
   }
   .card-details{
     margin:0;
@@ -112,7 +107,7 @@
     position: absolute;
     font-weight: 400;
     font-size: large;
-    color:rgb(48, 46, 41);
+    color:var(--overlay-text-color);
     left:50%;
     top:30%;
     transform: translate(-50%,-50%);

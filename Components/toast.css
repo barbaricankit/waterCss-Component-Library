@@ -1,24 +1,17 @@
-:root {
-    --background-color: #4caf50;
-    --black-font-color: white;
-    --toast-background-color: tomato;
-  }
-  
   .toastBtn {
     padding: 1rem;
-    background-color: var(--background-color);
-    color: var(--black-font-color);
+    background-color: var(--btn-primary-color);
+    color: var(--white-color);
     cursor: pointer;
   }
   .toast-desc-1,
   .toast-desc-2 {
     visibility: hidden;
-    border: 1px solid var(--black-font-color);
+    border: 1px solid var(--white-color);
     padding: 1rem;
     background-color: var(--toast-background-color);
     width: 40%;
     text-align: center;
-    /* margin: 1rem auto; */
     left: 30%;
     border-radius: 5px;
     position: fixed;
