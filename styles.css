@@ -44,6 +44,7 @@
     --black-font-color: #000;
     --hover-font-color: white;
     --toast-background-color: tomato;
+    --overlay-text-color:rgb(48, 46, 41);
   }
   *{
     margin:0;
