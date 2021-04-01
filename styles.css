@@ -43,13 +43,23 @@
     --active-background-color: #073ed6;
     --black-font-color: #000;
     --hover-font-color: white;
-    --toast-background-color: tomato;
+    --toast-background-color: rgba(56, 164, 226);
     --overlay-text-color:rgb(48, 46, 41);
   }
   *{
     margin:0;
     border:0;
     box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  hr {
+    border: 0;
+    clear:both;
+    display:block;
+    width: 96%;               
+    background-color:#375670;
+    height: 1px;
+    margin:1rem;
   }
   .component-desc{
     padding: 1rem;
@@ -60,4 +70,13 @@
     }
   .code {
   margin:1rem;
+  }
+  .heading{
+    position: sticky;
+    top:3rem;
+    background-color: var(--white-border);
+    padding:1rem;
+  }
+  h2{
+    margin:1rem;
   }

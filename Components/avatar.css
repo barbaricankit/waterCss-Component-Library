@@ -3,13 +3,11 @@
     padding: 2rem;
     border-radius: 10px;
     text-align: center;
-    
   }
   .avatar-sm {
     width: 3.5rem;
     border-radius: 50%;
   }
-  
   .avatar-med {
     width: 4.5rem;
     border-radius: 50%;
