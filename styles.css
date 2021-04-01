@@ -76,6 +76,7 @@
     top:3rem;
     background-color: var(--white-border);
     padding:1rem;
+    z-index:1;
   }
   h2{
     margin:1rem;
