@@ -62,7 +62,7 @@
   .navigation-option-horizontal .navigation-option {
     color: var(--black-font-color);
     text-align: center;
-    padding: 1.03rem;
+    padding: 1rem 0.7rem;
     text-decoration: none;
   }
   .navigation-option-horizontal .navigation-option:hover {
