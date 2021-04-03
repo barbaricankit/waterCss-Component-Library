@@ -10,11 +10,11 @@
 @import "./Components/textutilities.css";
 @import "./Components/navigation.css";
 :root {
-    --horizontal-navbar-background-color:#93C5FD;
-    --vertical-navbar-background-color:#60A5FA;
-    --fixed-vertical-navbar-background-color:#EFF6FF;
-    --btn-primary-color:#1D4ED8;
-    --floating-btn-color:#3B82F6;
+    --horizontal-navbar-background-color:#6EE7B7;
+    --vertical-navbar-background-color:#34D399;
+    --fixed-vertical-navbar-background-color:#ffffff;
+    --btn-primary-color:#059669;
+    --floating-btn-color:#10B981;
     --alert-bg-error-color: rgb(255, 68, 61);
     --alert-bg-info-color: rgb(185, 219, 245);
     --alert-bg-warning-color: rgb(253, 193, 108);
@@ -37,10 +37,10 @@
     --disabled-list-color:rgba(0, 0, 0, 0.651);
     --list-badge-color:rgb(233, 36, 30);
     --action-list-color:rgb(111, 40, 177);
-    --stacked-list-border-color:rgb(235, 238, 240);
-    --stacked-background-color: rgb(95, 169, 187);
-    --hover-background-color: #537cd4;
-    --active-background-color: #073ed6;
+    --stacked-list-border-color:#ECFDF5;
+    --stacked-background-color: #6EE7B7;
+    --hover-background-color: #047857;
+    --active-background-color: #10B981;
     --black-font-color: #000;
     --hover-font-color: white;
     --toast-background-color: rgba(56, 164, 226);
@@ -80,4 +80,14 @@
   }
   h2{
     margin:1rem;
+  }
+  #logo{
+    color: rgb(34, 188, 194);
+    font-size: larger;
+  }
+  #logo-text{
+    color: white;
+    font-size: larger;
+    display: block;
+    padding: 1rem;
   }
