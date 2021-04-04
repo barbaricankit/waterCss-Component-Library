@@ -27,7 +27,6 @@
     text-decoration: none;
     font-size:large;
     cursor: pointer;
-    color: var(--black-font-color);
   }
   .navigation-option:hover {
     color: var(--active-background-color);
