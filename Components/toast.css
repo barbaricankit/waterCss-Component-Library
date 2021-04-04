@@ -18,47 +18,35 @@
   }
   .show {
     visibility: visible;
-    -webkit-animation: fadein 0.5s, fadeout 0.5s;
-    animation: fadein 0.5s, fadeout 0.5s 2.5s;
+    -webkit-animation: fadein 4s;
+    animation: fadein 4s forwards;
+    
   }
   @-webkit-keyframes fadein {
-    from {
+    0% {
       top: 0;
       opacity: 0;
     }
-    to {
+    50% {
       top: 80px;
       opacity: 1;
+    }
+    100%{
+      top:0;
+      opacity: 0;
     }
   }
   @keyframes fadein {
-    from {
+    0% {
       top: 0;
       opacity: 0;
     }
-    to {
+    50% {
       top: 80px;
       opacity: 1;
     }
-  }
-  @-webkit-keyframes fadeout {
-    from {
-      top: 0;
-      opacity: 0;
-    }
-    to {
-      top: 80px;
-      opacity: 1;
-    }
-  }
-  @keyframes fadeout {
-    from {
-      top: 80px;
-      opacity: 1;
-    }
-    to {
-      top: 0;
+    100%{
+      top:0;
       opacity: 0;
     }
   }
-  

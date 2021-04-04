@@ -8,12 +8,12 @@ btnToast1.addEventListener("click", () => {
   toast1.classList.add("show");
   setTimeout(() => {
     toast1.classList.remove("show");
-  }, 3000);
+  }, 5000);
 });
 btnToast2.addEventListener("click", () => {
   console.log("Button Clicked");
   toast2.classList.add("show");
   setTimeout(() => {
     toast2.classList.remove("show");
-  }, 3000);
+  }, 5000);
 });
