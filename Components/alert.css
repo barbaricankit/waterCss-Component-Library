@@ -1,11 +1,11 @@
   .alerts {
     border: 1px solid var(--gray-border);
     border-radius: 5px;
-    margin: 2rem;
+    margin: var(--margin-width);
   }
   .alert {
     padding: 1rem;
-    margin: 1rem;
+    margin: var(--margin-width);
   }
   .alert-text {
     position: relative;
@@ -17,7 +17,6 @@
   .alert-error {
     background-color: var(--alert-bg-error-color);
   }
- 
   .alert-warning {
     background-color: var(--alert-bg-warning-color);
   }

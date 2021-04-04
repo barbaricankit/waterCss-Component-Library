@@ -6,13 +6,13 @@
   .card {
     position: relative;
     width: 25%;
-    
+    margin-bottom: var(--margin-width);
   }
   .cards {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
-    margin:1rem;
+   
   }
   .left-badge {
     background-color: var(--pink-badge-color);
@@ -49,7 +49,6 @@
     width: 25%;
     box-shadow: 5px 5px 5px var(--box-shadow-color);
     transition: 0.3s;
-    margin: 0;
     font-size: 1rem;
     border: 1px solid var(--gray-border);
   }
@@ -58,18 +57,14 @@
     padding:0.5rem; 
   }
   .brand-name{
-    margin:0;
-    padding:0.2rem; 
+    padding-bottom:0.2rem; 
   }
   .product-name{
-    margin:0;
     font-weight: 400;
-    padding:0.2rem; 
+    padding-bottom:0.2rem; 
   }
   .product-price{
-    margin:0;
-    
-    padding:0.3rem; 
+    padding-bottom:0.3rem; 
   }
   .horizontal-card-img{
     width: 60%;
@@ -79,7 +74,6 @@
     display: flex;
     height:auto;
     width: 60%;
-    margin: 0;
     font-size: 1rem;
     border: 1px solid var(--gray-border);
     box-shadow: 5px 5px 5px var(--box-shadow-color);
@@ -115,14 +109,13 @@
   .text-card{
     border: 1px solid var(--gray-border);
     text-align: justify;
-    width: 30%;
+    width: 50%;
     box-shadow: 5px 5px 5px var(--box-shadow-color);
   }
   @media only screen and (max-width:600px){
     .card{
       width: 90%;
       height: auto;
-      margin: 1rem;
     }
     .horizontal-card-with-text{
       width: 90%;

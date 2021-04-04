@@ -16,10 +16,14 @@
 .h6{
     font-size: calc(1rem);
 }
+.header{
+    margin: var(--margin-width);
+}
 .text-utilities{
     border: 1px solid  ;
-    padding: 2rem;
+    padding: 1rem;
     border-radius: 10px;
+    margin: var(--margin-width);
 }
 .text-sm{
     font-size:calc(0.6rem);

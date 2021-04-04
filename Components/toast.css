@@ -1,8 +1,6 @@
-  .toastBtn {
-    padding: 1rem;
-    background-color: var(--btn-primary-color);
-    color: var(--white-color);
+  .btn-toast-1 {
     cursor: pointer;
+    margin:var(--margin-width);
   }
   .toast-desc-1,
   .toast-desc-2 {

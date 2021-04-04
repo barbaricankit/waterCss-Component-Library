@@ -2,6 +2,7 @@
     border: 1px solid;
     padding: 2rem;
     border-radius: 10px;
+    margin:var(--margin-width);
   }
   .stacked-lists {
     list-style-type: none;

@@ -3,6 +3,7 @@
     padding: 2rem;
     border-radius: 10px;
     text-align: center;
+    margin:var(--margin-width);
   }
   .avatar-sm {
     width: 3.5rem;
@@ -34,9 +35,8 @@
     border: 2px solid var(--white-border);
     border-radius: 50%;
     background-color: var(--avatar-badge-color);
-    margin: 0.5rem;
     padding: 0rem 0.5rem;
-    right: 0.8rem;
+    right: 0.7rem;
     bottom: 0.3rem;
   }
   .avatar-on-avatar {
