@@ -47,6 +47,7 @@
     --overlay-text-color:rgb(48, 46, 41);
     --margin-width:1rem;
     --margin-bw-buttons:0.5rem;
+    --modal-background-color:#D1FAE5;
   }
   *{
     margin:0;
