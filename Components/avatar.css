@@ -19,7 +19,7 @@
   }
   .avatar-double-letter {
     background-color: var(--avatar-double-letter-color);
-    padding: 1rem;
+    padding: 0.6rem;
     border: 1px solid;
     border-radius: 50%;
   }

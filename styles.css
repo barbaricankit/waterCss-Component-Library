@@ -75,7 +75,7 @@
   }
   .heading{
     position: sticky;
-    top:3rem;
+    top:4rem;
     background-color: var(--white-border);
     padding:1rem;
     z-index:1;
@@ -83,13 +83,14 @@
   h2{
     margin:var(--margin-width);
   }
-  #logo{
+  .logo{
     color: rgb(34, 188, 194);
     font-size: larger;
+    
   }
-  #logo-text{
+  .logo-text{
     color: white;
     font-size: larger;
     display: block;
-    padding: 1rem;
+    margin-left:1rem;
   }

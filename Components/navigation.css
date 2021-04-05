@@ -1,37 +1,57 @@
-  .fixed-vertical-bar {
-    width: 10rem;
-    height: 100%;
-    position: fixed;
-    list-style-type: none;
-    margin: 0;
-    margin-top: 53.9375px;
-    padding: 0;
-    background-color: var(--fixed-vertical-navbar-background-color);
-    top: 0;
-  }
+.fixed-vertical-bar {
+  display: flex;
+  background-color: var(--vertical-navbar-background-color);
+  position: fixed;
+  bottom: 0;
+  width:100%;
+  justify-content: space-between;
+  z-index: 3;
+  margin:0;
+  padding:0;
+  overflow-x: scroll;
+}
+.fixed-horizontal-bar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+.li-element{
+  list-style-type: none;
+}
+.component-details {
+  margin: 0;
+  
+}
+.nav-avatar{
+  float: right;
+  margin: 1rem 1rem 1.2rem 2rem;
+}
+.nav-name{
+  display: none;
+}
+.nav-icon{
+  display: inline;
+}
+.code{
+  display: none;
+}
   .vertical-nav-bar {
     list-style-type: none;
     margin: 0;
     padding: 0;
     background-color: var(--vertical-navbar-background-color);
   }
-  .component-details {
-    margin-left: 12rem;
-    margin-top: 2rem;
-    position: relative;
-    top:3rem;
-  }
+  
   .navigation-option {
-    display: block;
-    padding: 1rem;
-    text-decoration: none;
+    display: block;  
     font-size:large;
     cursor: pointer;
   }
-  .navigation-option:hover {
-    color: var(--active-background-color);
-    padding-left:3rem;
-  
+  .navigation-top{
+    padding: 1.5rem 0.5rem;
+  }
+  .navigation-bottom{
+    padding: 1rem 0.5rem;
   }
   .active {
     color: var(--active-background-color);
@@ -53,6 +73,9 @@
     background-color: var( --horizontal-navbar-background-color);
     list-style-type: none;
     z-index:2;
+    height:4.5rem;
+    display: flex;
+    justify-content: space-between;
   }
   .navigation-option-horizontal {
     float: left;
@@ -60,18 +83,14 @@
   .navigation-option-horizontal .navigation-option {
     color: var(--black-font-color);
     text-align: center;
-    padding: 1rem 0.7rem;
+   
     text-decoration: none;
   }
   .navigation-option-horizontal .navigation-option:hover {
     background-color: var(--hover-background-color);
     color: var(--hover-font-color)
   }
-  .fixed-horizontal-bar {
-    position: fixed;
-    top: 0;
-    width: 100%;
-  }
+  
   /* DropDown content on Nav-Bar */
   .dropdown-content {
     display: none;
@@ -93,33 +112,57 @@
     background-color: var(--hover-background-color);
     color: var(--hover-font-color);
   }
-  @media only screen and (max-width: 1100px) {
+  @media only screen and (min-width: 1100px) {
     .fixed-vertical-bar {
-      display: none;
-    }
-    .fixed-vertical-bar .navigation-option {
-      float: left;
-    }
-    .fixed-vertical-bar .bordered-centered {
-      border: none;
+      display: block;
+      width: 14rem;
+      height: 100%;
+      position: fixed;
+      list-style-type: none;
+      margin: 0;
+      margin-top: 4.5rem;
+      padding: 0;
+      padding-left:0.5rem;
+      background-color: var(--fixed-vertical-navbar-background-color);
+      top: 0;
     }
     .component-details {
-      margin: 0;
-      
+      margin-left: 14rem;
+      margin-top: 2rem;
+      position: relative;
+      top:3rem;
     }
-    .component-details .horizontal-nav-bar {
-      position: fixed;
-      top: 0;
-      width: 100%;
-    }
-    .code{
-      display: none;
-    }
+    
+   .code{
+     display: block;
+   }
+   .nav-name{
+     display: inline;
+    margin-left: 1rem;
   }
-  @media only screen and (max-width: 600px) { 
-    .component-details .horizontal-nav-bar {
-      display: block;
-      
-    }
+  .navigation-option:hover {
+    color: var(--active-background-color);
+    
+  
+  }
+  .navigation-option-horizontal .nav-icon{
+    display: none;
+  }
+  .navigation-option-horizontal .nav-icon{
+    margin:0;
+  }
+  .navigation-option-horizontal .nav-name{
+    display: inline;
+  }
+  }
+  @media only screen and (min-width: 530px) { 
+    .navigation-top .nav-name{
+      display: inline;
+     margin-left: 1rem;
+   }
+   .navigation-option-horizontal .nav-icon{
+    display: none;
+  }
+  
   }
   

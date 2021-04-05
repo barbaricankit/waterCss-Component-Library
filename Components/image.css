@@ -12,10 +12,15 @@
     text-align: start;
     padding: 0.5rem;
   }
+  .images{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
   .responsive-img {
-    width: 24.99%;
-    float: left;
+    /* float: left; */
     padding: 1rem;
+    width: 25%;
   }
   .round-img {
     border: 1px solid var(--gray-border);
@@ -25,7 +30,7 @@
   }
   @media only screen and (max-width: 1300px) {
     .responsive-img {
-      width: 33.3%;
+      width: 30%;
     }
   }
   @media only screen and (max-width: 800px) {
