@@ -1,50 +1,52 @@
 .avatar-images {
-    border: 1px solid;
-    padding: 2rem;
-    border-radius: 10px;
-    text-align: center;
-    margin:var(--margin-width);
-  }
-  .avatar-sm {
-    width: 3.5rem;
-    border-radius: 50%;
-  }
-  .avatar-med {
-    width: 4.5rem;
-    border-radius: 50%;
-  }
-  .avatar-lg {
-    width: 5.5rem;
-    border-radius: 50%;
-  }
-  .avatar-double-letter {
-    background-color: var(--avatar-double-letter-color);
-    padding: 0.6rem;
-    border: 1px solid;
-    border-radius: 50%;
-  }
-  .avatar-single-letter {
-    background-color: var(--avatar-single-letter-color);
-    padding: 1rem 1.2rem;
-    border: 1px solid;
-    border-radius: 50%;
-  }
-  
-  .avatar-badge {
-    position: relative;
-    border: 2px solid var(--white-border);
-    border-radius: 50%;
-    background-color: var(--avatar-badge-color);
-    padding: 0rem 0.5rem;
-    right: 0.7rem;
-    bottom: 0.3rem;
-  }
-  .avatar-on-avatar {
-    position: relative;
-    right: 1.3rem;
-    bottom: 0rem;
-    border-radius: 50%;
-    width: 2.5rem;
-    border: 2px solid var(--wheat-border);
-  }
-  
+  border: 1px solid #ccc;
+  padding: 2rem;
+  border-radius: 10px;
+  text-align: center;
+  margin: var(--margin-width);
+  display: flex;
+}
+.avatar {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.avatar-sm {
+  width: 3.5rem;
+  border-radius: 50%;
+}
+.avatar-md {
+  width: 4.5rem;
+  border-radius: 50%;
+}
+.avatar-lg {
+  width: 5.5rem;
+  border-radius: 50%;
+}
+.double-letter-avatar {
+  background-color: var(--avatar-letter-color);
+  padding: 1rem;
+  border: 1px solid;
+  border-radius: 50%;
+}
+.single-letter-avatar {
+  background-color: var(--avatar-letter-color);
+  padding: 1rem 1.2rem;
+  border: 1px solid;
+  border-radius: 50%;
+}
+
+.avatar-badge {
+  position: relative;
+  border: 2px solid var(--white-border);
+  border-radius: 50%;
+  padding: 0rem 0.5rem;
+  right: 1rem;
+  bottom: 0.5rem;
+}
+.green-dot {
+  background-color: var(--green-color);
+}
+.red-dot {
+  background-color: var(--red-color);
+}

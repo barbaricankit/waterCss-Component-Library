@@ -1,45 +1,47 @@
-.h1{
-    font-size: calc(1.375rem + 1.5vw);
+.h1 {
+  font-size: calc(1.375rem + 1.5vw);
 }
-.h2{
-    font-size: calc(1.325rem + .9vw);
+.h2 {
+  font-size: calc(1.325rem + 0.9vw);
+  padding: 1rem 0;
+  margin: 0 1rem;
 }
-.h3{
-    font-size: calc(1.3rem + .6vw);
+.h3 {
+  font-size: calc(1.3rem + 0.6vw);
 }
-.h4{
-    font-size: calc(1.275rem + .3vw);
+.h4 {
+  font-size: calc(1.275rem + 0.3vw);
 }
-.h5{
-    font-size: calc(1.25rem );
+.h5 {
+  font-size: calc(1.25rem);
 }
-.h6{
-    font-size: calc(1rem);
+.h6 {
+  font-size: calc(1rem);
 }
-.header{
-    margin: var(--margin-width);
+.header {
+  margin: var(--margin-width);
 }
-.text-utilities{
-    border: 1px solid  ;
-    padding: 1rem;
-    border-radius: 10px;
-    margin: var(--margin-width);
+.text-utilities {
+  border: 1px solid;
+  padding: 1rem;
+  border-radius: 10px;
+  margin: var(--margin-width);
 }
-.text-sm{
-    font-size:calc(0.6rem);
-    padding:0.2rem;
+.text-sm {
+  font-size: calc(0.6rem);
+  padding: 0.2rem;
 }
-.text-med{
-    font-size:calc(0.8rem);
-    padding:0.2rem;
+.text-med {
+  font-size: calc(0.8rem);
+  padding: 0.2rem;
 }
-.text-lg{
-    font-size:calc(1.1rem);
-    padding:0.2rem;
+.text-lg {
+  font-size: calc(1.1rem);
+  padding: 0.2rem;
 }
-.text-gray{
-    color:var(--gray-border);
+.text-gray {
+  color: var(--gray-border);
 }
-.text-center{
-    text-align: center;
+.text-center {
+  text-align: center;
 }

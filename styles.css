@@ -10,87 +10,95 @@
 @import "./Components/textutilities.css";
 @import "./Components/navigation.css";
 :root {
-    --horizontal-navbar-background-color:#6EE7B7;
-    --vertical-navbar-background-color:#34D399;
-    --fixed-vertical-navbar-background-color:#ffffff;
-    --btn-primary-color:#059669;
-    --floating-btn-color:#10B981;
-    --alert-bg-error-color: rgb(255, 68, 61);
-    --alert-bg-info-color: rgb(185, 219, 245);
-    --alert-bg-warning-color: rgb(253, 193, 108);
-    --alert-bg-success-color: rgb(147, 243, 147);
-    --avatar-single-letter-color:rgb(214, 57, 57);
-    --avatar-double-letter-color:rgb(127, 35, 180);
-    --avatar-badge-color:rgb(87, 165, 9);
-    --gray-border:gray;
-    --black-border:black;
-    --wheat-border:wheat;
-    --white-border:white;
-    --white-color:white;
-    --pink-badge-color:rgba(255, 63, 108, 0.8);
-    --blue-badge-color:rgba(56, 164, 226, 0.8);
-    --box-shadow-color:rgb(214, 212, 212);
-    --filled-color:rgba(128, 128, 128, 0.356);
-    --validation-error-color:red;
-    --selected-list-background-color:#059669;
-    --disabled-list-background-color:rgba(128, 128, 128, 0.247);
-    --disabled-list-color:rgba(0, 0, 0, 0.651);
-    --list-badge-color:rgb(233, 36, 30);
-    --action-list-color:#0d6b4d;
-    --stacked-list-border-color:#ECFDF5;
-    --stacked-background-color: #6EE7B7;
-    --hover-background-color: #047857;
-    --active-background-color: #10B981;
-    --black-font-color: #000;
-    --hover-font-color: white;
-    --toast-background-color: #10B981;
-    --overlay-text-color:rgb(48, 46, 41);
-    --margin-width:1rem;
-    --margin-bw-buttons:0.5rem;
-    --modal-background-color:#D1FAE5;
-  }
-  *{
-    margin:0;
-    border:0;
-    box-sizing: border-box;
-    font-family: Arial, Helvetica, sans-serif;
-  }
-  hr {
-    border: 0;
-    clear:both;
-    display:block;               
-    background-color:#375670;
-    height: 1px;
-    margin:var(--margin-width);
-  }
-  .component-desc{
-    padding: 1rem;
-  }
-  a {
-      text-decoration: none;
-      font-size: large;
-    }
-  .code {
-  margin:var(--margin-width);
-  }
-  .heading{
-    position: sticky;
-    top:4rem;
-    background-color: var(--white-border);
-    padding:1rem;
-    z-index:1;
-  }
-  h2{
-    margin:var(--margin-width);
-  }
-  .logo{
-    color: rgb(34, 188, 194);
-    font-size: larger;
-    
-  }
-  .logo-text{
-    color: white;
-    font-size: larger;
-    display: block;
-    margin-left:1rem;
-  }
+  --body-backgroundColor: #fff;
+  --horizontal-navbar-background-color: #fff;
+  --vertical-navbar-background-color: #d1fae5;
+  --fixed-vertical-navbar-background-color: #dbeafe;
+  --logo-icon-color: #dbeafe;
+  --nav-icon-color: black;
+  --btn-primary-color: #3b82f6;
+  --floating-btn-color: #3b82f6;
+  --alert-bg-error-color: rgb(255, 68, 61);
+  --alert-bg-info-color: rgb(185, 219, 245);
+  --alert-bg-warning-color: rgb(253, 193, 108);
+  --alert-bg-success-color: rgb(147, 243, 147);
+  --avatar-letter-color: #6ee7b7;
+  --avatar-badge-color: rgb(87, 165, 9);
+  --green-color: rgb(87, 165, 9);
+  --red-color: red;
+  --gray-border: gray;
+  --black-border: black;
+  --wheat-border: wheat;
+  --white-border: white;
+  --white-color: white;
+  --pink-badge-color: rgba(255, 63, 108, 0.8);
+  --blue-badge-color: rgba(56, 164, 226, 0.8);
+  --box-shadow-color: rgb(214, 212, 212);
+  --filled-color: rgba(128, 128, 128, 0.356);
+  --validation-error-color: red;
+  --selected-list-background-color: #059669;
+  --disabled-list-background-color: rgba(128, 128, 128, 0.247);
+  --disabled-list-color: rgba(0, 0, 0, 0.651);
+  --list-badge-color: rgb(233, 36, 30);
+  --action-list-color: #0d6b4d;
+  --stacked-list-border-color: #ecfdf5;
+  --stacked-background-color: #6ee7b7;
+  --hover-background-color: #047857;
+  --active-background-color: #10b981;
+  --black-font-color: #000;
+  --hover-font-color: white;
+  --toast-background-color: #10b981;
+  --overlay-text-color: rgb(48, 46, 41);
+  --margin-width: 1rem;
+  --margin-bw-buttons: 0.5rem;
+  --modal-background-color: #d1fae5;
+}
+body {
+  background-color: var(--body-backgroundColor);
+}
+* {
+  margin: 0;
+  border: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+hr {
+  border: 0;
+  clear: both;
+  display: block;
+  background-color: #375670;
+  height: 1px;
+  margin: var(--margin-width);
+}
+.component-desc {
+  padding: 1rem;
+}
+a {
+  text-decoration: none;
+  font-size: large;
+}
+.code {
+  margin: var(--margin-width);
+}
+.heading {
+  position: sticky;
+  top: 0;
+  background-color: var(--body-backgroundColor);
+  padding: 1rem 0;
+  margin: 0 1rem;
+  z-index: 1;
+  border-bottom: 1px solid #ccc;
+}
+h2 {
+  margin: var(--margin-width);
+}
+
+.logo {
+  color: #2874f0;
+  font-size: x-large;
+}
+.logo-text {
+  color: #2874f0;
+  font-size: x-large;
+}
