@@ -1,56 +1,82 @@
-  .buttons {
-    border: 1px solid var(--gray-border);
-    border-radius: 5px;
-    margin: var(--margin-width);
-    padding: 1rem;
-    text-align: center;
+.buttons {
+  border: 1px solid var(--gray-border);
+  border-radius: 5px;
+  margin: var(--margin-width);
+  padding: 1rem;
+  display: flex;
+}
+.button {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 1rem 1.5rem;
+}
+.btn-primary {
+  padding: 0.5rem 1rem;
+  color: var(--white-color);
+  line-height: 1.75;
+  font-weight: 600;
+  letter-spacing: 0.02857em;
+  border-radius: 2px;
+  cursor: pointer;
+}
+.btn-text {
+  background-color: transparent;
+  cursor: pointer;
+  border: 0;
+  line-height: 1.75;
+  font-weight: 600;
+  letter-spacing: 0.02857em;
+}
+.btn-secondary {
+  background-color: transparent;
+  cursor: pointer;
+  border: 0;
+  line-height: 1.75;
+  font-weight: 600;
+  letter-spacing: 0.02857em;
+  border: 1px solid;
+  border-radius: 2px;
+  padding: 0.45rem 1rem;
+}
+.btn-bg-color {
+  background-color: #3b82f6;
+}
+.icon-btn {
+  width: 1.5em;
+  height: 1.5em;
+}
+.btn-fab {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  line-height: 1.5;
+  text-align: center;
+}
+.btn-color {
+  color: #3b82f6;
+}
+.badge-icon {
+  position: relative;
+}
+.badge {
+  position: absolute;
+  border-radius: 50%;
+  background-color: var(--btn-primary-color);
+  font-size: 12px;
+  top: -14px;
+  right: -13px;
+  color: white;
+  font-weight: 600;
+  width: 22px;
+  height: 22px;
+  line-height: 22px;
+  text-align: center;
+}
+@media only screen and (max-width: 1100px) {
+  .button {
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-evenly;
   }
-  .btn-primary {
-    padding: 0.5rem 1rem;
-    background-color: var(--btn-primary-color);
-    color: var(--white-color);
-    line-height: 1.75;
-    font-weight: 600;
-    letter-spacing: 0.02857em;
-    border-radius: 3px;
-    margin: var(--margin-bw-buttons);
-    cursor: pointer;
-  }
-  .btn-text {
-    background-color: transparent;
-    cursor: pointer;
-    border: 0;
-    line-height: 1.75;
-    font-weight: 600;
-    letter-spacing: 0.02857em;
-    color: var(--btn-primary-color);
-  }
-  .btn-secondary {
-    background-color: transparent;
-    cursor: pointer;
-    border: 0;
-    line-height: 1.75;
-    font-weight: 600;
-    letter-spacing: 0.02857em;
-    color: var(--btn-primary-color);
-    border: 1px solid  ;
-    border-radius: 3px;
-    padding: 0.5rem 1rem;
-  }
-  
-  .icon-btn {
-    width: 1.5em;
-    height: 1.5em;
-  }
-  .btn-fab {
-    width: 56px;
-    height: 56px;
-    background-color: var(--floating-btn-color);
-    border-radius: 50%;
-    line-height: 1.5;
-    text-align: center;
-  }
-  .btn-bg-color {
-    background-color: var(--floating-btn-color);
-  }
-  
+}

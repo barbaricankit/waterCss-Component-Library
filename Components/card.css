@@ -1,128 +1,129 @@
 .card-img {
-    height: auto;
-    width: 100%;
-    cursor: pointer;
-  }
+  height: auto;
+  width: 100%;
+  cursor: pointer;
+}
+.card {
+  position: relative;
+  width: 25%;
+  margin: var(--margin-width);
+}
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}
+.left-badge {
+  background-color: var(--pink-badge-color);
+  padding: 0.1rem 0.3rem;
+  position: absolute;
+  left: 0;
+  top: 1.2rem;
+  color: var(--white-color);
+  cursor: pointer;
+}
+.right-badge {
+  background-color: var(--blue-badge-color);
+  padding: 0.1rem 0.3rem;
+  position: absolute;
+  right: 0;
+  top: 1.2rem;
+  color: var(--white-color);
+  cursor: pointer;
+}
+.dismiss-badge {
+  border-radius: 50%;
+  color: var(--white-color);
+  padding: 0.2rem 0.6rem;
+  font-size: large;
+  position: absolute;
+  right: 0.5rem;
+  top: 0.5rem;
+  cursor: pointer;
+}
+
+.card-with-text {
+  display: flex;
+  flex-direction: column;
+  width: 25%;
+  box-shadow: 5px 5px 5px var(--box-shadow-color);
+  transition: 0.3s;
+  font-size: 1rem;
+  border: 1px solid var(--gray-border);
+}
+
+.brand-name {
+  padding-bottom: 0.2rem;
+}
+.product-name {
+  font-weight: 400;
+  padding-bottom: 0.2rem;
+}
+.product-price {
+  padding-bottom: 0.3rem;
+}
+.horizontal-card-img {
+  width: 60%;
+  cursor: pointer;
+}
+.horizontal-card-with-text {
+  display: flex;
+  height: auto;
+  width: 60%;
+  font-size: 1rem;
+  border: 1px solid var(--gray-border);
+  box-shadow: 5px 5px 5px var(--box-shadow-color);
+  transition: 0.3s;
+}
+.product-details {
+  margin: 0;
+  font-weight: 400;
+  padding: 0.2rem;
+}
+.text-overlay-card-image {
+  height: auto;
+  width: 100%;
+  cursor: pointer;
+}
+.card-with-text-overlay {
+  position: relative;
+  box-shadow: 5px 5px 5px var(--box-shadow-color);
+  transition: 0.3s;
+}
+.overlay-text {
+  position: absolute;
+  font-weight: 400;
+  font-size: large;
+  color: var(--overlay-text-color);
+  left: 50%;
+  top: 30%;
+  transform: translate(-50%, -50%);
+}
+.text-card {
+  border: 1px solid var(--gray-border);
+  text-align: justify;
+  width: 50%;
+  box-shadow: 5px 5px 5px var(--box-shadow-color);
+}
+.card-details {
+  margin: 0;
+  padding: 1rem;
+}
+.card-btn {
+  display: flex;
+  justify-content: flex-end;
+}
+@media only screen and (max-width: 600px) {
   .card {
-    position: relative;
-    width: 25%;
-    margin-bottom: var(--margin-width);
-  }
-  .cards {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-   
-  }
-  .left-badge {
-    background-color: var(--pink-badge-color);
-    padding: 0.1rem 0.3rem;
-    position: absolute;
-    left: 0;
-    top: 1.2rem;
-    color: var(--white-color);
-    cursor: pointer;
-  }
-  .right-badge {
-    background-color: var(--blue-badge-color);
-    padding: 0.1rem 0.3rem;
-    position: absolute;
-    right: 0;
-    top: 1.2rem;
-    color: var(--white-color);
-    cursor: pointer;
-  }
-  .dismiss-badge {
-    border-radius: 50%;
-    color: var(--white-color);
-    padding: 0.2rem 0.6rem;
-    font-size: large;
-    position: absolute;
-    right: 0.5rem;
-    top: 0.5rem;
-    cursor: pointer;
-  }
-  
-  .card-with-text {
-    display: flex;
-    flex-direction: column;
-    width: 25%;
-    box-shadow: 5px 5px 5px var(--box-shadow-color);
-    transition: 0.3s;
-    font-size: 1rem;
-    border: 1px solid var(--gray-border);
-  }
-  .card-details{
-    margin:0;
-    padding:0.5rem; 
-  }
-  .brand-name{
-    padding-bottom:0.2rem; 
-  }
-  .product-name{
-    font-weight: 400;
-    padding-bottom:0.2rem; 
-  }
-  .product-price{
-    padding-bottom:0.3rem; 
-  }
-  .horizontal-card-img{
-    width: 60%;
-    cursor: pointer;
-  }
-  .horizontal-card-with-text{
-    display: flex;
-    height:auto;
-    width: 60%;
-    font-size: 1rem;
-    border: 1px solid var(--gray-border);
-    box-shadow: 5px 5px 5px var(--box-shadow-color);
-    transition: 0.3s;
-  }
-  .product-details{
-    margin:0;
-    font-weight: 400;
-    padding:0.2rem; 
-  }
-  .text-overlay-card-image{
-   
+    width: 90%;
     height: auto;
+  }
+  .horizontal-card-with-text {
+    width: 90%;
+    flex-direction: column;
+  }
+  .horizontal-card-img {
     width: 100%;
     cursor: pointer;
   }
-  .card-with-text-overlay{
-    position: relative;
-    box-shadow: 5px 5px 5px var(--box-shadow-color);
-    transition: 0.3s;
-    margin: 0;
-  }
-  .overlay-text{
-    position: absolute;
-    font-weight: 400;
-    font-size: large;
-    color:var(--overlay-text-color);
-    left:50%;
-    top:30%;
-    transform: translate(-50%,-50%);
-  
-  }
-  .text-card{
-    border: 1px solid var(--gray-border);
-    text-align: justify;
-    width: 50%;
-    box-shadow: 5px 5px 5px var(--box-shadow-color);
-  }
-  @media only screen and (max-width:600px){
-    .card{
-      width: 90%;
-      height: auto;
-    }
-    .horizontal-card-with-text{
-      width: 90%;
-      flex-direction: column;
-    }
-    .horizontal-card-img{
-      width: 100%;
-      cursor: pointer;
-    }
-  }
+}

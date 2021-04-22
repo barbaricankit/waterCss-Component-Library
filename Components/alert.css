@@ -1,40 +1,33 @@
-  .alerts {
-    border: 1px solid var(--gray-border);
-    border-radius: 5px;
-    margin: var(--margin-width);
-  }
-  .alert {
-    padding: 1rem;
-    margin: var(--margin-width);
-  }
-  .alert-text {
-    position: relative;
-    bottom: 1rem;
-  }
-  .alert-icon {
-    width: 2rem;
-  }
-  .alert-error {
-    background-color: var(--alert-bg-error-color);
-  }
-  .alert-warning {
-    background-color: var(--alert-bg-warning-color);
-  }
-  .alert-info {
-    background-color: var(--alert-bg-info-color);
-  }
-  .alert-success {
-    background-color: var(--alert-bg-success-color);
-  }
-  .alert-header {
-    position: relative;
-    bottom: 0.7rem;
-    left: 0.2rem;
-    font-size: x-large;
-  }
-  .alert-desc {
-    position: relative;
-    font-size: small;
-    bottom: 0.2rem;
-  }
-  
+.alerts {
+  border: 1px solid var(--gray-border);
+  border-radius: 5px;
+  margin: var(--margin-width);
+  display: flex;
+}
+.alert {
+  padding: 1rem;
+  margin: var(--margin-width);
+  display: flex;
+  align-items: center;
+}
+.alert-width {
+  width: 45%;
+  height: auto;
+  margin: auto;
+}
+.alert-text {
+  padding-left: 0.5rem;
+}
+
+.red-bg {
+  background-color: var(--red-bg);
+}
+.orange-bg {
+  background-color: var(--orange-bg);
+}
+.blue-bg {
+  background-color: var(--blue-bg);
+}
+.green-bg {
+  background-color: var(--green-bg);
+}

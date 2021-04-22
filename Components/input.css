@@ -9,7 +9,7 @@
   padding: 1rem;
 }
 .textbox {
-  padding: 0.5rem 0;
+  padding: 0.5rem 0.5rem;
   border: none;
   border-bottom: 1px solid;
   font-size: large;
@@ -21,7 +21,7 @@
   padding: 1rem;
 }
 .outlined {
-  border: 1px solid  ;
+  border: 1px solid;
   padding: 1rem;
   border-radius: 3px;
 }
@@ -47,7 +47,7 @@
 }
 .error-text {
   position: absolute;
-  top: 1.7rem;
+  top: 1.9rem;
   right: var(--margin-width);
   color: var(--validation-error-color);
 }

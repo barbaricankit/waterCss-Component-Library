@@ -1,5 +1,5 @@
 .avatar-images {
-  border: 1px solid #ccc;
+  border: 1px solid var(--gray-border);
   padding: 2rem;
   border-radius: 10px;
   text-align: center;

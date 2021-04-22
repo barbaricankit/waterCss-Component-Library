@@ -18,15 +18,15 @@
   --nav-icon-color: black;
   --btn-primary-color: #3b82f6;
   --floating-btn-color: #3b82f6;
-  --alert-bg-error-color: rgb(255, 68, 61);
-  --alert-bg-info-color: rgb(185, 219, 245);
-  --alert-bg-warning-color: rgb(253, 193, 108);
-  --alert-bg-success-color: rgb(147, 243, 147);
+  --red-bg: rgb(255, 68, 61);
+  --blue-bg: rgb(185, 219, 245);
+  --orange-bg: rgb(253, 193, 108);
+  --green-bg: rgb(147, 243, 147);
   --avatar-letter-color: #6ee7b7;
   --avatar-badge-color: rgb(87, 165, 9);
   --green-color: rgb(87, 165, 9);
-  --red-color: red;
-  --gray-border: gray;
+  --red-color: rgb(211, 35, 35);
+  --gray-border: #ccc;
   --black-border: black;
   --wheat-border: wheat;
   --white-border: white;
@@ -37,7 +37,7 @@
   --filled-color: rgba(128, 128, 128, 0.356);
   --validation-error-color: red;
   --selected-list-background-color: #059669;
-  --disabled-list-background-color: rgba(128, 128, 128, 0.247);
+  --disabled-list-background-color: rgba(82, 75, 75, 0.486);
   --disabled-list-color: rgba(0, 0, 0, 0.651);
   --list-badge-color: rgb(233, 36, 30);
   --action-list-color: #0d6b4d;
@@ -47,11 +47,12 @@
   --active-background-color: #10b981;
   --black-font-color: #000;
   --hover-font-color: white;
-  --toast-background-color: #10b981;
+  --toast-background-color: #3b82f6;
   --overlay-text-color: rgb(48, 46, 41);
   --margin-width: 1rem;
   --margin-bw-buttons: 0.5rem;
-  --modal-background-color: #d1fae5;
+  --modal-background-color: #dbeafe;
+  --blue-bg-color: #60a5fa;
 }
 body {
   background-color: var(--body-backgroundColor);
@@ -101,4 +102,10 @@ h2 {
 .logo-text {
   color: #2874f0;
   font-size: x-large;
+}
+.red-color {
+  color: var(--red-color);
+}
+.left-margin {
+  margin-left: 1rem;
 }

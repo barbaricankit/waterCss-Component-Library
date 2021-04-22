@@ -63,15 +63,13 @@
   display: block;
   font-size: large;
   cursor: pointer;
+  padding: 1rem 0.5rem;
 }
 .navigation-top {
   padding: 0;
 }
 .navigation-top > a {
   height: 100%;
-}
-.navigation-bottom {
-  padding: 1rem 0.5rem;
 }
 .active {
   color: var(--active-background-color);
