@@ -18,7 +18,6 @@
 .alert-text {
   padding-left: 0.5rem;
 }
-
 .red-bg {
   background-color: var(--red-bg);
 }
@@ -30,4 +29,9 @@
 }
 .green-bg {
   background-color: var(--green-bg);
+}
+@media only screen and (max-width: 1099px) {
+  .alert-width {
+    width: 80%;
+  }
 }

@@ -38,13 +38,16 @@
   font-size: larger;
   padding: 2rem;
 }
+.modal-size {
+  width: 90%;
+}
 @media only screen and (min-width: 1100px) {
   .modal-size {
-    width: 50%;
+    width: 60%;
   }
 }
-@media only screen and (min-width: 700px) {
+@media only screen and (min-width: 700px) and (max-width: 1099px) {
   .modal-size {
-    width: 40%;
+    width: 70%;
   }
 }

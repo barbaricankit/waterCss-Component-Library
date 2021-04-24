@@ -11,6 +11,12 @@
   justify-content: space-between;
   padding: 1rem 1.5rem;
 }
+.action-button {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 1rem 1.5rem;
+}
 .btn-primary {
   padding: 0.5rem 1rem;
   color: var(--white-color);
@@ -64,17 +70,40 @@
   border-radius: 50%;
   background-color: var(--btn-primary-color);
   font-size: 12px;
-  top: -14px;
-  right: -13px;
+  top: -10px;
+  right: -12px;
   color: white;
   font-weight: 600;
-  width: 22px;
-  height: 22px;
-  line-height: 22px;
+  width: 18px;
+  height: 18px;
+  line-height: 18px;
   text-align: center;
 }
-@media only screen and (max-width: 1100px) {
+@media only screen and (max-width: 1100px) and (min-width: 551px) {
   .button {
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-evenly;
+  }
+  .action-button {
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-evenly;
+  }
+}
+@media only screen and (max-width: 550px) {
+  .button {
+    flex-direction: column;
+    align-content: space-between;
+    justify-content: space-evenly;
+  }
+  .button button {
+    margin-bottom: 1rem;
+  }
+  .badge-icon {
+    margin-bottom: 1rem;
+  }
+  .action-button {
     flex-direction: row;
     width: 100%;
     justify-content: space-evenly;

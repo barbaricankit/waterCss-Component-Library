@@ -13,14 +13,17 @@
 }
 .avatar-sm {
   width: 3.5rem;
+  height: 3.5rem;
   border-radius: 50%;
 }
 .avatar-md {
   width: 4.5rem;
+  height: 4.5rem;
   border-radius: 50%;
 }
 .avatar-lg {
   width: 5.5rem;
+  height: 5.5rem;
   border-radius: 50%;
 }
 .double-letter-avatar {
@@ -35,7 +38,6 @@
   border: 1px solid;
   border-radius: 50%;
 }
-
 .avatar-badge {
   position: relative;
   border: 2px solid var(--white-border);
@@ -49,4 +51,13 @@
 }
 .red-dot {
   background-color: var(--red-color);
+}
+@media only screen and (max-width: 1200px) {
+  .avatar-images {
+    flex-direction: column;
+  }
+  .avatar {
+    flex-direction: row;
+    justify-content: space-around;
+  }
 }

@@ -36,13 +36,13 @@
   --box-shadow-color: rgb(214, 212, 212);
   --filled-color: rgba(128, 128, 128, 0.356);
   --validation-error-color: red;
-  --selected-list-background-color: #059669;
+  --selected-list-background-color: #2563eb;
   --disabled-list-background-color: rgba(82, 75, 75, 0.486);
   --disabled-list-color: rgba(0, 0, 0, 0.651);
-  --list-badge-color: rgb(233, 36, 30);
+  --list-badge-color: #1e3a8a;
   --action-list-color: #0d6b4d;
   --stacked-list-border-color: #ecfdf5;
-  --stacked-background-color: #6ee7b7;
+  --stacked-background-color: #93c5fd;
   --hover-background-color: #047857;
   --active-background-color: #10b981;
   --black-font-color: #000;
@@ -97,15 +97,38 @@ h2 {
 
 .logo {
   color: #2874f0;
-  font-size: x-large;
+  font-size: small;
 }
 .logo-text {
   color: #2874f0;
-  font-size: x-large;
+  font-size: small;
 }
 .red-color {
   color: var(--red-color);
 }
 .left-margin {
   margin-left: 1rem;
+}
+@media only screen and (min-width: 480px) {
+  .menu-btn {
+    display: none;
+  }
+  .logo {
+    color: #2874f0;
+    font-size: x-large;
+  }
+  .logo-text {
+    color: #2874f0;
+    font-size: x-large;
+  }
+}
+@media only screen and (min-width: 1100px) {
+  .content {
+    width: 85%;
+  }
+}
+@media only screen and (max-width: 480px) {
+  .content {
+    width: 100%;
+  }
 }
