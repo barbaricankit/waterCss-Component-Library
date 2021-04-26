@@ -120,6 +120,12 @@
   .card {
     width: 22%;
   }
+  .horizontal-card-with-text {
+    width: 50%;
+  }
+  .text-card {
+    width: 60%;
+  }
 }
 @media only screen and (min-width: 601px) and (max-width: 800px) {
   .card {

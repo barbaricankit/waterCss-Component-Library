@@ -11,7 +11,6 @@
 @import "./Components/navigation.css";
 :root {
   --body-backgroundColor: #fff;
-  --horizontal-navbar-background-color: #fff;
   --vertical-navbar-background-color: #d1fae5;
   --fixed-vertical-navbar-background-color: #dbeafe;
   --logo-icon-color: #dbeafe;
@@ -22,7 +21,7 @@
   --blue-bg: rgb(185, 219, 245);
   --orange-bg: rgb(253, 193, 108);
   --green-bg: rgb(147, 243, 147);
-  --avatar-letter-color: #6ee7b7;
+  --avatar-letter-color: #3b82f6;
   --avatar-badge-color: rgb(87, 165, 9);
   --green-color: rgb(87, 165, 9);
   --red-color: rgb(211, 35, 35);

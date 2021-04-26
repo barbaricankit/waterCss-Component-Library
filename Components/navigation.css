@@ -40,7 +40,7 @@
   width: 100%;
   z-index: 4;
   height: 4.5rem;
-  background-color: var(--horizontal-navbar-background-color);
+  background-color: var(--white-color);
   display: flex;
   justify-content: space-between;
   align-items: center;

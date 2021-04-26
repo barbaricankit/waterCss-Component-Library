@@ -28,14 +28,16 @@
 }
 .double-letter-avatar {
   background-color: var(--avatar-letter-color);
-  padding: 1rem;
-  border: 1px solid;
+  width: 3.5rem;
+  height: 3.5rem;
+  line-height: 3.5rem;
   border-radius: 50%;
 }
 .single-letter-avatar {
   background-color: var(--avatar-letter-color);
-  padding: 1rem 1.2rem;
-  border: 1px solid;
+  width: 3.5rem;
+  height: 3.5rem;
+  line-height: 3.5rem;
   border-radius: 50%;
 }
 .avatar-badge {
