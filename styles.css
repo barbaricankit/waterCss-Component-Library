@@ -31,12 +31,12 @@
   --wheat-border: wheat;
   --white-border: white;
   --white-color: white;
-  --pink-badge-color: rgba(255, 63, 108, 0.8);
-  --blue-badge-color: rgba(56, 164, 226, 0.8);
-  --box-shadow-color: rgb(214, 212, 212);
+  --pink-badge-color: #3b82f6;
+  --blue-badge-color: #dc2357;
+  --box-shadow-color: rgb(129, 129, 129);
   --filled-color: rgba(128, 128, 128, 0.356);
   --validation-error-color: red;
-  --selected-list-background-color: #2563eb;
+  --selected-list-background-color: #3b82f6;
   --disabled-list-background-color: rgba(82, 75, 75, 0.486);
   --disabled-list-color: rgba(0, 0, 0, 0.651);
   --list-badge-color: #1e3a8a;
@@ -97,17 +97,21 @@ h2 {
 
 .logo {
   color: #2874f0;
-  font-size: small;
+  font-size: large;
 }
 .logo-text {
   color: #2874f0;
-  font-size: small;
+  font-size: large;
+  padding-left: 0.3rem;
 }
 .red-color {
   color: var(--red-color);
 }
 .left-margin {
   margin-left: 1rem;
+}
+.logo-details {
+  display: flex;
 }
 @media only screen and (min-width: 480px) {
   .menu-btn {

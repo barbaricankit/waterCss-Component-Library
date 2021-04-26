@@ -14,58 +14,79 @@
   </head>
 
   <body>
-    <header class="fixed-horizontal-bar">
-      <div class="horizontal-nav-bar">
-        <div class="navigation-option-horizontal navigation-option menu-btn">
-          <div class="">
-            <i class="fa fa-bars" aria-hidden="true"></i>
+    <header>
+      <div class="search_bar">
+        <i class="fa fa-chevron-left fa-lg back_icon" aria-hidden="true"></i>
+        <input
+          type="search"
+          placeholder="Search Anything..."
+          class="search_text"
+        />
+        <i class="fa fa-search fa-lg srch-icon" aria-hidden="true"></i>
+      </div>
+      <div class="page_header">
+        <div class="menu_elem">
+          <div class="menu__item menu-btn">
+            <div>
+              <i class="fa fa-bars" aria-hidden="true"></i>
+            </div>
+          </div>
+          <a href="/" class="menu__item nav__item">
+            <div class="logo-details">
+              <i class="fa fa-tint logo" aria-hidden="true"></i>
+              <span class="logo-text">FluidCSS</span>
+            </div>
+          </a>
+          <a href="#" class="menu__item nav__item">
+            <i class="fa fa-home nav-icon" aria-hidden="true"></i
+            ><span class="nav-name"> Home</span>
+          </a>
+          <a href="#" class="menu__item nav__item">
+            <i class="fa fa-bell nav-icon" aria-hidden="true"></i
+            ><span class="nav-name"> Notifications</span>
+          </a>
+          <a href="#" class="menu__item nav__item">
+            <i class="fa fa-address-book nav-icon" aria-hidden="true"></i
+            ><span class="nav-name"> Contact</span>
+          </a>
+          <a href="#" class="menu__item nav__item">
+            <i class="fa fa-search nav-icon" aria-hidden="true"></i>
+          </a>
+        </div>
+        <div class="menu__item menu_search">
+          <input
+            type="search"
+            placeholder="Search Anything..."
+            class="search_box"
+          />
+          <i class="fa fa-search search-icon" aria-hidden="true"></i>
+        </div>
+        <div class="user">
+          <span
+            ><img
+              class="avatar-sm nav-avatar"
+              src="https://scontent.fccu18-1.fna.fbcdn.net/v/t1.18169-9/24131585_1571374906276687_711347645622454609_n.jpg?_nc_cat=106&ccb=1-3&_nc_sid=174925&_nc_ohc=qYsIzSYAFNYAX8n-I26&_nc_ht=scontent.fccu18-1.fna&oh=a01b504ade77a7298f5b2dab96ed5f7a&oe=609CED38"
+          /></span>
+          <div class="user-menu">
+            <a href="#" class="user-sub-menu"><div>Profile</div></a>
+            <a href="#" class="user-sub-menu"><div>Your Orders</div></a>
+            <a href="#" class="user-sub-menu"><div>Logout</div></a>
           </div>
         </div>
-        <a href="" class="navigation-option-horizontal navigation-option">
-          <div class="logo-details">
-            <i class="fa fa-tint logo" aria-hidden="true"></i>
-            <span class="logo-text">FluidCSS</span>
-          </div>
-        </a>
-        <a href="" class="navigation-option-horizontal navigation-option">
-          <i class="fa fa-home nav-icon" aria-hidden="true"></i
-          ><span class="nav-name"> Home</span>
-        </a>
-        <a href="" class="navigation-option-horizontal navigation-option">
-          <i class="fa fa-bell nav-icon" aria-hidden="true"></i
-          ><span class="nav-name"> Notifications</span>
-        </a>
-        <a href="" class="navigation-option-horizontal navigation-option">
-          <i class="fa fa-address-book nav-icon" aria-hidden="true"></i
-          ><span class="nav-name"> Contact</span>
-
-          <div class="dropdown-content">
-            <a class="dropdown-link" href="#link">Phone</a>
-            <a class="dropdown-link" href="#link">Email</a>
-            <a class="dropdown-link" href="#link">Facebook</a>
-          </div>
-        </a>
-      </div>
-      <div class="navigation-option-horizontal">
-        <span
-          ><img
-            class="avatar-sm nav-avatar"
-            src="https://scontent.fccu18-1.fna.fbcdn.net/v/t1.18169-9/24131585_1571374906276687_711347645622454609_n.jpg?_nc_cat=106&ccb=1-3&_nc_sid=174925&_nc_ohc=qYsIzSYAFNYAX8n-I26&_nc_ht=scontent.fccu18-1.fna&oh=a01b504ade77a7298f5b2dab96ed5f7a&oe=609CED38"
-        /></span>
       </div>
     </header>
 
-    <div class="component-details">
-      <nav class="fixed-vertical-bar">
+    <div class="main-content">
+      <nav class="nav__bar">
         <div>
-          <a class="navigation-option" href="#avatar">
+          <a class="nav__item" href="#avatar">
             <div>
               <i class="fa fa-users nav-icon" aria-hidden="true"></i
               ><span class="nav-name">Avatar</span>
             </div>
           </a>
 
-          <a class="navigation-option" href="#alert">
+          <a class="nav__item" href="#alert">
             <div>
               <i
                 class="fa fa-exclamation-triangle nav-icon"
@@ -74,48 +95,48 @@
               ><span class="nav-name">Alert</span>
             </div></a
           >
-          <a class="navigation-option" href="#button">
+          <a class="nav__item" href="#button">
             <div>
               <i class="fa fa-download nav-icon" aria-hidden="true"></i
               ><span class="nav-name">Button</span>
             </div></a
           >
-          <a class="navigation-option" href="#input">
+          <a class="nav__item" href="#input">
             <div>
               <i class="fa fa-keyboard-o nav-icon" aria-hidden="true"></i
               ><span class="nav-name">Input</span>
             </div></a
           >
-          <a class="navigation-option" href="#list">
+          <a class="nav__item" href="#list">
             <div>
               <i class="fa fa-list nav-icon" aria-hidden="true"></i
               ><span class="nav-name">Lists</span>
             </div></a
-          ><a class="navigation-option" href="#modals">
+          ><a class="nav__item" href="#modals">
             <div>
               <i class="fa fa-window-maximize nav-icon" aria-hidden="true"></i
               ><span class="nav-name">Modals</span>
             </div></a
           >
-          <a class="navigation-option" href="#card">
+          <a class="nav__item" href="#card">
             <div>
               <i class="fa fa-credit-card nav-icon" aria-hidden="true"></i
               ><span class="nav-name">Cards</span>
             </div></a
           >
-          <a class="navigation-option" href="#toast">
+          <a class="nav__item" href="#toast">
             <div>
               <i class="fa fa-trophy nav-icon" aria-hidden="true"></i
               ><span class="nav-name">Toasts</span>
             </div></a
           >
-          <a class="navigation-option" href="#text-util">
+          <a class="nav__item" href="#text-util">
             <div>
               <i class="fa fa-text-width nav-icon" aria-hidden="true"></i
               ><span class="nav-name">Text utilities</span>
             </div></a
           >
-          <a class="navigation-option" href="#image">
+          <a class="nav__item" href="#image">
             <div>
               <i class="fa fa-picture-o nav-icon" aria-hidden="true"></i
               ><span class="nav-name">Images</span>
@@ -265,7 +286,7 @@
                 <i class="fa fa-exclamation-triangle" aria-hidden="true"></i>
                 <span class="alert-text">This is a warning alert</span>
               </div>
-              <div class="alert blue-bg">
+              <div class="alert light-blue-bg">
                 <i class="fa fa-info-circle" aria-hidden="true"></i>
                 <span class="alert-text">This is an info alert</span>
               </div>
@@ -276,7 +297,7 @@
             </div>
             <div class="code">
               <iframe
-                src="https://carbon.now.sh/embed?bg=rgba%28249%2C237%2C212%2C1%29&t=twilight&wt=none&l=auto&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=IBM+Plex+Mono&fs=14px&lh=143%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522alert%2520red-bg%2522%253E%250A%253Ci%2520class%253D%2522fa%2520fa-exclamation%2522%2520aria-hidden%253D%2522true%2522%253E%253C%252Fi%253E%250A%253Cspan%2520class%253D%2522alert-text%2522%253EThis%2520is%2520an%2520error%2520alert%253C%252Fspan%253E%250A%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522alert%2520orange-bg%2522%253E%250A%253Ci%2520class%253D%2522fa%2520fa-exclamation-triangle%2522%2520aria-hidden%253D%2522true%2522%253E%253C%252Fi%253E%250A%253Cspan%2520class%253D%2522alert-text%2522%253EThis%2520is%2520a%2520warning%2520alert%253C%252Fspan%253E%250A%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522alert%2520blue-bg%2522%253E%250A%253Ci%2520class%253D%2522fa%2520fa-info-circle%2522%2520aria-hidden%253D%2522true%2522%253E%253C%252Fi%253E%250A%253Cspan%2520class%253D%2522alert-text%2522%253EThis%2520is%2520an%2520info%2520alert%253C%252Fspan%253E%250A%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522alert%2520green-bg%2522%253E%250A%253Ci%2520class%253D%2522fa%2520fa-check%2522%2520aria-hidden%253D%2522true%2522%253E%253C%252Fi%253E%250A%253Cspan%2520class%253D%2522alert-text%2522%253EThis%2520is%2520a%2520success%2520alert%253C%252Fspan%253E%250A%253C%252Fdiv%253E"
+                src="https://carbon.now.sh/embed?bg=rgba%28249%2C237%2C212%2C1%29&t=twilight&wt=none&l=auto&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=IBM+Plex+Mono&fs=14px&lh=143%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522alert%2520red-bg%2522%253E%250A%253Ci%2520class%253D%2522fa%2520fa-exclamation%2522%2520aria-hidden%253D%2522true%2522%253E%253C%252Fi%253E%250A%253Cspan%2520class%253D%2522alert-text%2522%253EThis%2520is%2520an%2520error%2520alert%253C%252Fspan%253E%250A%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522alert%2520orange-bg%2522%253E%250A%253Ci%2520class%253D%2522fa%2520fa-exclamation-triangle%2522%2520aria-hidden%253D%2522true%2522%253E%253C%252Fi%253E%250A%253Cspan%2520class%253D%2522alert-text%2522%253EThis%2520is%2520a%2520warning%2520alert%253C%252Fspan%253E%250A%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522alert%2520light-blue-bg%2522%253E%250A%253Ci%2520class%253D%2522fa%2520fa-info-circle%2522%2520aria-hidden%253D%2522true%2522%253E%253C%252Fi%253E%250A%253Cspan%2520class%253D%2522alert-text%2522%253EThis%2520is%2520an%2520info%2520alert%253C%252Fspan%253E%250A%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522alert%2520green-bg%2522%253E%250A%253Ci%2520class%253D%2522fa%2520fa-check%2522%2520aria-hidden%253D%2522true%2522%253E%253C%252Fi%253E%250A%253Cspan%2520class%253D%2522alert-text%2522%253EThis%2520is%2520a%2520success%2520alert%253C%252Fspan%253E%250A%253C%252Fdiv%253E"
                 style="
                   width: 100%;
                   height: 400px;
@@ -319,16 +340,16 @@
           <div class="h2">Floating Action Buttons</div>
           <div class="buttons">
             <div class="action-button">
-              <button class="btn-fab blue-bg">
+              <button class="btn-fab light-blue-bg">
                 <i class="fa fa-plus fa-lg" aria-hidden="true"></i>
               </button>
-              <button class="btn-fab blue-bg">
+              <button class="btn-fab light-blue-bg">
                 <i class="fa fa-pencil fa-lg" aria-hidden="true"></i>
               </button>
             </div>
             <div class="code">
               <iframe
-                src="https://carbon.now.sh/embed?bg=rgba%28249%2C237%2C212%2C1%29&t=twilight&wt=none&l=auto&ds=false&dsyoff=0px&dsblur=0px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=IBM+Plex+Mono&fs=14px&lh=105%25&si=false&es=2x&wm=false&code=%253Cbutton%2520class%253D%2522btn-fab%2520blue-bg%2522%253E%250A%253Ci%2520class%253D%2522fa%2520fa-plus%2520fa-lg%2522%2520aria-hidden%253D%2522true%2522%253E%253C%252Fi%253E%250A%253C%252Fbutton%253E%250A%253Cbutton%2520class%253D%2522btn-fab%2520blue-bg%2522%253E%250A%253Ci%2520class%253D%2522fa%2520fa-pencil%2520fa-lg%2522%2520aria-hidden%253D%2522true%2522%253E%253C%252Fi%253E%250A%253C%252Fbutton%253E"
+                src="https://carbon.now.sh/embed?bg=rgba%28249%2C237%2C212%2C1%29&t=twilight&wt=none&l=auto&ds=false&dsyoff=0px&dsblur=0px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=IBM+Plex+Mono&fs=14px&lh=105%25&si=false&es=2x&wm=false&code=%253Cbutton%2520class%253D%2522btn-fab%2520light-blue-bg%2522%253E%250A%253Ci%2520class%253D%2522fa%2520fa-plus%2520fa-lg%2522%2520aria-hidden%253D%2522true%2522%253E%253C%252Fi%253E%250A%253C%252Fbutton%253E%250A%253Cbutton%2520class%253D%2522btn-fab%2520light-blue-bg%2522%253E%250A%253Ci%2520class%253D%2522fa%2520fa-pencil%2520fa-lg%2522%2520aria-hidden%253D%2522true%2522%253E%253C%252Fi%253E%250A%253C%252Fbutton%253E"
                 style="
                   width: 100%;
                   height: 100%;
@@ -627,23 +648,31 @@
                 class="card-img"
                 src="https://assets.myntassets.com/dpr_2,q_60,w_210,c_limit,fl_progressive/assets/images/2211749/2018/5/18/136ea17e-0c65-46c5-bd1f-1b64b151f0121526641430882-Roadster-Men-Blue-Analogue-Watch-MFB-PN-WTH-S9689G-1561526641430612-1.jpg"
               />
-              <span class="left-badge"><small>New</small></span>
+              <span class="card-badge left blue-bg"><small>New</small></span>
             </div>
             <div class="card">
               <img
                 class="card-img"
                 src="https://assets.myntassets.com/dpr_2,q_60,w_210,c_limit,fl_progressive/assets/images/2211749/2018/5/18/136ea17e-0c65-46c5-bd1f-1b64b151f0121526641430882-Roadster-Men-Blue-Analogue-Watch-MFB-PN-WTH-S9689G-1561526641430612-1.jpg"
               />
-              <span class="left-badge"><small>New</small></span>
-              <span class="right-badge"><small>Discount</small></span>
+              <span class="card-badge left blue-bg"><small>New</small></span>
+              <span class="card-badge right pink-bg"
+                ><small>Discount</small></span
+              >
+              <span
+                ><i
+                  class="fa fa-heart badge-btn top-right"
+                  aria-hidden="true"
+                ></i
+              ></span>
             </div>
           </div>
           <div class="code">
             <iframe
-              src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=auto&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=48px&ph=63px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522card%2522%253E%250A%2520%2520%2520%2520%2520%253Cimg%2520class%253D%2522card-img%2522%2520src%253D%2522https%253A%252F%252Fvia.placeholder.com%252F150%2522%2520alt%253D%2522%2522%2520%252F%253E%250A%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522left-badge%2522%253E%253Csmall%253ENew%253C%252Fsmall%253E%253C%252Fspan%253E%250A%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522card%2522%253E%250A%2520%2520%2520%2520%2520%253Cimg%2520class%253D%2522card-img%2522%2520src%253D%2522https%253A%252F%252Fvia.placeholder.com%252F150%2522%2520alt%253D%2522%2522%2520%252F%253E%250A%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522left-badge%2522%253E%253Csmall%253ENew%253C%252Fsmall%253E%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522right-badge%2522%253E%253Csmall%253EDiscount%253C%252Fsmall%253E%253C%252Fspan%253E%250A%253C%252Fdiv%253E"
+              src="https://carbon.now.sh/embed?bg=rgba%28249%2C237%2C212%2C1%29&t=twilight&wt=none&l=htmlmixed&ds=true&dsyoff=0px&dsblur=0px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=IBM+Plex+Mono&fs=14px&lh=143%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522card%2522%253E%250A%253Cimg%2520class%253D%2522card-img%2522%2520src%253D%2522https%253A%252F%252Fvia.placeholder.com%252F150%2522%252F%253E%250A%253Cspan%2520class%253D%2522card-badge%2520left%2520blue-bg%2522%253E%253Csmall%253ENew%253C%252Fsmall%253E%253C%252Fspan%253E%250A%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522card%2522%253E%250A%253Cimg%2520class%253D%2522card-img%2522%2520src%253D%2522https%253A%252F%252Fvia.placeholder.com%252F150%2522%252F%253E%250A%253Cspan%2520class%253D%2522card-badge%2520left%2520blue-bg%2522%253E%253Csmall%253ENew%253C%252Fsmall%253E%253C%252Fspan%253E%250A%253Cspan%2520class%253D%2522card-badge%2520right%2520pink-bg%2522%253E%250A%253Csmall%253EDiscount%253C%252Fsmall%253E%253C%252Fspan%253E%250A%253Cspan%253E%253Ci%2520class%253D%2522fa%2520fa-heart%2520badge-btn%2520top-right%2522%2520aria-hidden%253D%2522true%2522%253E%250A%253C%252Fi%253E%253C%252Fspan%253E%250A%253C%252Fdiv%253E"
               style="
                 width: 100%;
-                height: 332px;
+                height: 320px;
                 border: 0;
                 transform: scale(1);
                 overflow: hidden;
@@ -659,15 +688,20 @@
                 class="card-img"
                 src="https://assets.myntassets.com/dpr_2,q_60,w_210,c_limit,fl_progressive/assets/images/2211749/2018/5/18/136ea17e-0c65-46c5-bd1f-1b64b151f0121526641430882-Roadster-Men-Blue-Analogue-Watch-MFB-PN-WTH-S9689G-1561526641430612-1.jpg"
               />
-              <span class="dismiss-badge">x</span>
+              <span
+                ><i
+                  class="fa fa-times badge-btn top-right"
+                  aria-hidden="true"
+                ></i
+              ></span>
             </div>
           </div>
           <div class="code">
             <iframe
-              src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=auto&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=48px&ph=63px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522card%2522%253E%250A%2520%2520%2520%2520%2520%253Cimg%2520class%253D%2522card-img%2522%2520src%253D%2522https%253A%252F%252Fvia.placeholder.com%252F150%2522%2520alt%253D%2522%2522%2520%252F%253E%250A%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522dismiss-badge%2522%253Ex%253C%252Fspan%253E%250A%253C%252Fdiv%253E"
+              src="https://carbon.now.sh/embed?bg=rgba%28249%2C237%2C212%2C1%29&t=twilight&wt=none&l=htmlmixed&ds=true&dsyoff=0px&dsblur=0px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=IBM+Plex+Mono&fs=14px&lh=143%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522card%2522%253E%250A%253Cimg%2520class%253D%2522card-img%2522%2520src%253D%2522https%253A%252F%252Fvia.placeholder.com%252F150%2522%252F%253E%250A%253Cspan%253E%250A%253Ci%2520class%253D%2522fa%2520fa-times%2520badge-btn%2520top-right%2522%2520aria-hidden%253D%2522true%2522%253E%253C%252Fi%253E%250A%253C%252Fspan%253E%250A%253C%252Fdiv%253E"
               style="
                 width: 100%;
-                height: 242px;
+                height: 194px;
                 border: 0;
                 transform: scale(1);
                 overflow: hidden;
@@ -684,9 +718,9 @@
                 src="https://assets.myntassets.com/dpr_2,q_60,w_210,c_limit,fl_progressive/assets/images/2211749/2018/5/18/136ea17e-0c65-46c5-bd1f-1b64b151f0121526641430882-Roadster-Men-Blue-Analogue-Watch-MFB-PN-WTH-S9689G-1561526641430612-1.jpg"
               />
               <div class="card-details">
-                <h3 class="brand-name">Roadster</h3>
-                <h4 class="product-name">Men Analogue Watch</h4>
-                <div class="product-price">
+                <h4 class="card-text-title">Roadster</h4>
+                <p class="desc">Men Analogue Watch</p>
+                <div class="desc bold">
                   <small>Rs. 1574 <s>Rs 3499</s> (55% Off)</small>
                 </div>
               </div>
@@ -697,9 +731,9 @@
                 src="https://assets.myntassets.com/dpr_2,q_60,w_210,c_limit,fl_progressive/assets/images/2211749/2018/5/18/136ea17e-0c65-46c5-bd1f-1b64b151f0121526641430882-Roadster-Men-Blue-Analogue-Watch-MFB-PN-WTH-S9689G-1561526641430612-1.jpg"
               />
               <div class="card-details">
-                <h3 class="brand-name">Roadster</h3>
-                <h4 class="product-name">Men Analogue Watch</h4>
-                <div class="product-price">
+                <h4 class="card-text-title">Roadster</h4>
+                <p class="desc">Men Analogue Watch</p>
+                <div class="desc bold">
                   <small>Rs. 1574 <s>Rs 3499</s> (55% Off)</small>
                 </div>
               </div>
@@ -707,10 +741,10 @@
           </div>
           <div class="code">
             <iframe
-              src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=auto&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=48px&ph=63px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522card%2520card-with-text%2522%253E%250A%2520%2520%2520%2520%2520%253Cimg%2520class%253D%2522card-img%2522%2520src%253D%2522https%253A%252F%252Fvia.placeholder.com%252F150%2522%2520alt%253D%2522%2522%2520%252F%253E%250A%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-details%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ch3%2520class%253D%2522brand-name%2522%253ERoadster%253C%252Fh3%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ch4%2520class%253D%2522product-name%2522%253EMen%2520Analogue%2520Watch%253C%252Fh4%253E%250A%2509%2509%2520%2520%253Cdiv%2520class%253D%2522product-price%2522%253E%250A%2509%2509%2509%2520%2520%2520%253Csmall%253ERs.%25201574%2520%253Cs%253ERs%25203499%253C%252Fs%253E%2520%2855%2525%2520Off%29%253C%252Fsmall%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2509%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
+              src="https://carbon.now.sh/embed?bg=rgba%28249%2C237%2C212%2C1%29&t=twilight&wt=none&l=htmlmixed&ds=true&dsyoff=0px&dsblur=0px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=IBM+Plex+Mono&fs=14px&lh=143%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522card%2520horizontal-card-with-text%2522%253E%250A%253Cdiv%2520class%253D%2522card%2520card-with-text%2522%253E%250A%253Cimg%2520class%253D%2522card-img%2522%2520src%253D%2522https%253A%252F%252Fvia.placeholder.com%252F150%2522%252F%253E%250A%253Cdiv%2520class%253D%2522card-details%2522%253E%250A%253Ch4%2520class%253D%2522card-text-title%2522%253ERoadster%253C%252Fh4%253E%250A%253Cp%2520class%253D%2522desc%2522%253EMen%2520Analogue%2520Watch%253C%252Fp%253E%250A%253Cdiv%2520class%253D%2522desc%2520bold%2522%253E%250A%253Csmall%253ERs.%25201574%2520%253Cs%253ERs%25203499%253C%252Fs%253E%2520%2855%2525%2520Off%29%253C%252Fsmall%253E%250A%253C%252Fdiv%253E%250A%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
               style="
                 width: 100%;
-                height: 350px;
+                height: 300px;
                 border: 0;
                 transform: scale(1);
                 overflow: hidden;
@@ -725,27 +759,24 @@
                 class="horizontal-card-img"
                 src="https://assets.myntassets.com/dpr_2,q_60,w_210,c_limit,fl_progressive/assets/images/2211749/2018/5/18/136ea17e-0c65-46c5-bd1f-1b64b151f0121526641430882-Roadster-Men-Blue-Analogue-Watch-MFB-PN-WTH-S9689G-1561526641430612-1.jpg"
               />
-              <div class="card-details">
-                <h4 class="product-details">100% Original Products</h4>
-                <h4 class="product-details">
-                  Free Delivery on order above Rs. 799
-                </h4>
-                <h4 class="product-details">
-                  Pay on delivery might be available
-                </h4>
-                <h4 class="product-details">Easy 30 days returns</h4>
-                <h4 class="product-details">
+              <div class="horizontal-card-details">
+                <h4 class="card-text-title">Roadster</h4>
+                <p class="desc">100% Original Products</p>
+                <p class="desc">Free Delivery on order above Rs. 799</p>
+                <p class="desc">Pay on delivery might be available</p>
+                <p class="desc">Easy 30 days returns</p>
+                <p class="desc">
                   This item is only returnable and not exchangeable
-                </h4>
+                </p>
               </div>
             </div>
           </div>
           <div class="code">
             <iframe
-              src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=auto&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=48px&ph=63px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522card%2520horizontal-card-with-text%2522%253E%250A%2520%2520%2520%2520%2520%253Cimg%2520class%253D%2522horizontal-card-img%2522%2520src%253D%2522https%253A%252F%252Fvia.placeholder.com%252F150%2522%2520alt%253D%2522%2522%2520%252F%253E%250A%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-details%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ch4%2520class%253D%2522product-details%2522%253E100%2525%2520Original%2520Products%253C%252Fh4%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ch4%2520class%253D%2522product-details%2522%253EFree%2520Delivery%2520on%2520order%2520above%2520Rs.%2520799%253C%252Fh4%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ch4%2520class%253D%2522product-details%2522%253EPay%2520on%2520delivery%2520might%2520be%2520available%253C%252Fh4%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ch4%2520class%253D%2522product-details%2522%253EEasy%252030%2520days%2520returns%253C%252Fh4%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ch4%2520class%253D%2522product-details%2522%253EThis%2520item%2520is%2520only%2520returnable%2520and%2520not%2520exchangeable%253C%252Fh4%253E%250A%2509%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
+              src="https://carbon.now.sh/embed?bg=rgba%28249%2C237%2C212%2C1%29&t=twilight&wt=none&l=htmlmixed&ds=true&dsyoff=0px&dsblur=0px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=IBM+Plex+Mono&fs=14px&lh=143%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522card%2520horizontal-card-with-text%2522%253E%250A%253Cimg%2520class%253D%2522horizontal-card-img%2522%2520src%253D%2522https%253A%252F%252Fvia.placeholder.com%252F150%2522%250A%252F%253E%250A%253Cdiv%2520class%253D%2522horizontal-card-details%2522%253E%250A%253Ch4%2520class%253D%2522card-text-title%2522%253ERoadster%253C%252Fh4%253E%250A%253Cp%2520class%253D%2522desc%2522%253E100%2525%2520Original%2520Products%253C%252Fp%253E%250A%253Cp%2520class%253D%2522desc%2522%253EFree%2520Delivery%2520on%2520order%2520above%2520Rs.%2520799%253C%252Fp%253E%250A%253Cp%2520class%253D%2522desc%2522%253EPay%2520on%2520delivery%2520might%2520be%2520available%253C%252Fp%253E%250A%253Cp%2520class%253D%2522desc%2522%253EEasy%252030%2520days%2520returns%253C%252Fp%253E%250A%253Cp%2520class%253D%2522desc%2522%253EThis%2520item%2520is%2520only%2520returnable%2520and%2520not%2520exchangeable%253C%252Fp%253E%250A%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
               style="
                 width: 100%;
-                height: 350px;
+                height: 330px;
                 border: 0;
                 transform: scale(1);
                 overflow: hidden;
@@ -756,17 +787,16 @@
           </div>
           <h2>Card with Text Overlay</h2>
           <div class="cards">
-            <div class="card card-with-text-overlay">
+            <div class="card card-with-text">
               <img
-                class="text-overlay-card-image"
-                src="https://pixselo.com/wp-content/uploads/2018/03/dummy-placeholder-image-400x400.jpg"
+                class="card-img grayed-img"
+                src="https://assets.myntassets.com/dpr_2,q_60,w_210,c_limit,fl_progressive/assets/images/2211749/2018/5/18/136ea17e-0c65-46c5-bd1f-1b64b151f0121526641430882-Roadster-Men-Blue-Analogue-Watch-MFB-PN-WTH-S9689G-1561526641430612-1.jpg"
               />
               <span class="overlay-text">OUT OF STOCK</span>
               <div class="card-details">
-                <h3 class="brand-name">Roadster</h3>
-                <h4 class="product-name">Men Analogue Watch</h4>
-
-                <div class="product-price">
+                <h4 class="card-text-title">Roadster</h4>
+                <p class="desc">Men Analogue Watch</p>
+                <div class="desc bold">
                   <small>Rs. 1574 <s>Rs 3499</s> (55% Off)</small>
                 </div>
               </div>
@@ -774,10 +804,10 @@
           </div>
           <div class="code">
             <iframe
-              src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=auto&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=48px&ph=63px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522card%2520card-with-text-overlay%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520class%253D%2522text-overlay-card-image%2522%2520src%253D%2522https%253A%252F%252Fpixselo.com%252Fwp-content%252Fuploads%252F2018%252F03%252Fdummy-%2509%2509%2509%2520%2520placeholder-image-400x400.jpg%2522%2520%252F%253E%250A%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522overlay-text%2522%253EOUT%2520OF%2520STOCK%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-details%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ch3%2520class%253D%2522brand-name%2522%253ERoadster%253C%252Fh3%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ch4%2520class%253D%2522product-name%2522%253EMen%2520Analogue%2520Watch%253C%252Fh4%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522product-price%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Csmall%253ERs.%25201574%2520%253Cs%253ERs%25203499%253C%252Fs%253E%2520%2855%2525%2520Off%29%253C%252Fsmall%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
+              src="https://carbon.now.sh/embed?bg=rgba%28249%2C237%2C212%2C1%29&t=twilight&wt=none&l=htmlmixed&ds=true&dsyoff=0px&dsblur=0px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=IBM+Plex+Mono&fs=14px&lh=143%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522card%2520card-with-text%2522%253E%250A%253Cimg%2520class%253D%2522card-img%2520grayed-img%2522%2520src%253D%2522https%253A%252F%252Fvia.placeholder.com%252F150%2522%2520%252F%253E%250A%253Cspan%2520class%253D%2522overlay-text%2522%253EOUT%2520OF%2520STOCK%253C%252Fspan%253E%250A%253Cdiv%2520class%253D%2522card-details%2522%253E%250A%253Ch3%2520class%253D%2522card-text-title%2522%253ERoadster%253C%252Fh3%253E%250A%253Ch4%2520class%253D%2522desc%2522%253EMen%2520Analogue%2520Watch%253C%252Fh4%253E%250A%253Cdiv%2520class%253D%2522desc%2520bold%2522%253E%250A%253Csmall%253ERs.%25201574%2520%253Cs%253ERs%25203499%253C%252Fs%253E%2520%2855%2525%2520Off%29%253C%252Fsmall%253E%250A%253C%252Fdiv%253E%250A%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
               style="
                 width: 100%;
-                height: 386px;
+                height: 300px;
                 border: 0;
                 transform: scale(1);
                 overflow: hidden;
@@ -807,9 +837,9 @@
           </div>
           <div class="code">
             <iframe
-              src="https://carbon.now.sh/embed?bg=rgba%28249%2C237%2C212%2C1%29&t=twilight&wt=none&l=auto&ds=true&dsyoff=0px&dsblur=0px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=IBM+Plex+Mono&fs=14px&lh=143%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522card%2520text-card%2522%253E%250A%253Cdiv%2520class%253D%2522card-details%2522%253E%250A%253Cp%253ELorem%252C%2520ipsum%2520dolor%2520sit%2520amet%2520consectetur%2520adipisicing%2520elit.Perspiciatis%2520exercitationem%2520%250A%2520%2520%2520possimus%2520voluptatibus%252C%2520at%2520hic%2520illo.%2520Atque%2520praesentium%252C%2520voluptatum%2520id%2520dolore%2520ad%2520enim%2520quisquam%250A%2520%2520%2520libero%2520cupiditate%252C%2520sit%2520soluta%2520molestiae%2520corporis%2520doloribus%21%250A%253C%252Fp%253E%250A%253Cdiv%2520class%253D%2522card-btn%2522%253E%250A%253Cbutton%2520class%253D%2522btn-secondary%2520btn-color%2522%253ESecondary%253C%252Fbutton%253E%250A%253Cbutton%2520class%253D%2522btn-primary%2520btn-bg-color%2520left-margin%2522%253EPrimary%253C%252Fbutton%253E%250A%253C%252Fdiv%253E%250A%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
+              src="https://carbon.now.sh/embed?bg=rgba%28249%2C237%2C212%2C1%29&t=twilight&wt=none&l=htmlmixed&ds=true&dsyoff=0px&dsblur=0px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=IBM+Plex+Mono&fs=14px&lh=143%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522card%2520text-card%2522%253E%250A%253Cdiv%2520class%253D%2522card-details%2522%253E%250A%253Cp%253ELorem%252C%2520ipsum%2520dolor%2520sit%2520amet%2520consectetur%2520adipisicing%2520elit.Perspiciatis%2520exercitationem%2520%250A%2520%2520%2520possimus%2520voluptatibus%252C%2520at%2520hic%2520illo.%2520Atque%2520praesentium%252C%2520voluptatum%2520id%2520dolore%2520ad%2520enim%2520%250A%2520%2520%2520quisquam%2520libero%2520cupiditate%252C%2520sit%2520soluta%2520molestiae%2520corporis%2520doloribus%21%250A%253C%252Fp%253E%250A%253Cdiv%2520class%253D%2522card-btn%2522%253E%250A%253Cbutton%2520class%253D%2522btn-secondary%2520btn-color%2522%253ESecondary%253C%252Fbutton%253E%250A%253Cbutton%2520class%253D%2522btn-primary%2520btn-bg-color%2520left-margin%2522%253EPrimary%253C%252Fbutton%253E%250A%253C%252Fdiv%253E%250A%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
               style="
-                width: 76%;
+                width: 100%;
                 height: 314px;
                 border: 0;
                 transform: scale(1);

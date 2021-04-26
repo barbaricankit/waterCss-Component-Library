@@ -2,6 +2,7 @@
   display: flex;
   border: 1px solid var(--gray-border);
   align-items: center;
+  margin: var(--margin-width);
 }
 .modal {
   margin: var(--margin-width);
