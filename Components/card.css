@@ -7,11 +7,11 @@
   position: relative;
   width: 30%;
   margin: var(--margin-width);
+  box-shadow: 0 0 15px 4px var(--box-shadow-color);
 }
 .card:hover {
-  box-shadow: 5px 5px 5px var(--box-shadow-color),
-    -5px 5px 5px var(--box-shadow-color);
   transition: 0.3s;
+  transform: scale(1.05);
 }
 .cards {
   display: flex;
@@ -53,10 +53,10 @@
   font-size: 1rem;
 }
 .card-text-title {
-  padding-bottom: 0.2rem;
+  padding-bottom: 0.3rem;
 }
 .desc {
-  padding-bottom: 0.2rem;
+  padding-bottom: 0.3rem;
 }
 .bold {
   font-weight: bold;
