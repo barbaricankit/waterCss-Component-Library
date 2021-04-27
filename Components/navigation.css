@@ -55,7 +55,6 @@
   overflow-y: scroll;
   height: 100%;
   top: 0;
-  padding: 0 1rem;
   margin-top: 4.4rem;
 }
 .content::-webkit-scrollbar {
@@ -203,7 +202,6 @@ input:focus {
   }
   .content {
     margin-left: 12rem;
-    padding: 0 2rem;
   }
   .nav-icon {
     display: inline;
@@ -224,7 +222,6 @@ input:focus {
   }
   .content {
     margin-left: 4rem;
-    padding: 0 2rem;
   }
   .nav-icon {
     display: inline;

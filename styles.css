@@ -109,6 +109,15 @@ h2 {
 .left-margin {
   margin-left: 1rem;
 }
+.right-margin {
+  margin-right: 1rem;
+}
+.left-padding {
+  padding-left: 1rem;
+}
+.right-padding {
+  padding-right: 1rem;
+}
 .logo-details {
   display: flex;
 }
@@ -123,15 +132,5 @@ h2 {
   .logo-text {
     color: #2874f0;
     font-size: x-large;
-  }
-}
-@media only screen and (min-width: 1100px) {
-  .content {
-    width: 85%;
-  }
-}
-@media only screen and (max-width: 480px) {
-  .content {
-    width: 100%;
   }
 }

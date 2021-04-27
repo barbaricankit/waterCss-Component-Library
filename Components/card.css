@@ -7,11 +7,13 @@
   position: relative;
   width: 30%;
   margin: var(--margin-width);
-  box-shadow: 0 0 15px 4px var(--box-shadow-color);
+  box-shadow: 0 0 20px 1px var(--box-shadow-color);
+  border-radius: 10px;
+  overflow: hidden;
 }
 .card:hover {
   transition: 0.3s;
-  transform: scale(1.05);
+  transform: scale(1.03);
 }
 .cards {
   display: flex;
@@ -105,8 +107,6 @@
 .card-details {
   margin: 0;
   padding: 1rem 0.5rem;
-  border: 1px solid var(--gray-border);
-  border-top: 0;
 }
 .card-btn {
   display: flex;

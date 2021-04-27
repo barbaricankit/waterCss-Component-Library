@@ -23,7 +23,7 @@
   line-height: 1.75;
   font-weight: 600;
   letter-spacing: 0.02857em;
-  border-radius: 2px;
+  border-radius: 7px;
   cursor: pointer;
 }
 .btn-text {
@@ -42,11 +42,11 @@
   font-weight: 600;
   letter-spacing: 0.02857em;
   border: 1px solid;
-  border-radius: 2px;
+  border-radius: 7px;
   padding: 0.45rem 1rem;
 }
 .btn-bg-color {
-  background-color: #3b82f6;
+  background-color: #06f;
 }
 .icon-btn {
   width: 1.5em;
@@ -60,7 +60,7 @@
   text-align: center;
 }
 .btn-color {
-  color: #3b82f6;
+  color: #06f;
 }
 .badge-icon {
   position: relative;
