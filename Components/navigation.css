@@ -97,7 +97,10 @@
   padding-left: 1rem;
   width: 100%;
   background-color: white;
-  border-radius: 5px;
+  border-radius: 8px;
+  border: 1px solid var(--gray-border);
+  font-size: large;
+  padding-right: 2.5rem;
 }
 .search-icon {
   position: absolute;
@@ -117,6 +120,8 @@
   padding-left: 3rem;
   width: 100%;
   height: 4.5rem;
+  font-size: large;
+  padding-right: 3rem;
 }
 input:focus {
   outline: none;
