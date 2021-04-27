@@ -58,6 +58,9 @@
   padding: 0 1rem;
   margin-top: 4.4rem;
 }
+.content::-webkit-scrollbar {
+  display: none;
+}
 .nav-name {
   display: none;
 }
