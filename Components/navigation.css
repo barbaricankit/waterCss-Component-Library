@@ -1,5 +1,5 @@
 .nav__bar {
-  background-color: var(--fixed-vertical-navbar-background-color);
+  background-color: var(--nav__bar_color);
   position: fixed;
   top: 4.5rem;
   width: 70%;

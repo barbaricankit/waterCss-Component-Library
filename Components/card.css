@@ -27,10 +27,10 @@
   cursor: pointer;
 }
 .blue-bg {
-  background-color: var(--pink-badge-color);
+  background-color: var(--blue-badge-color);
 }
 .pink-bg {
-  background-color: var(--blue-badge-color);
+  background-color: var(--pink-badge-color);
 }
 .badge-btn {
   position: absolute;

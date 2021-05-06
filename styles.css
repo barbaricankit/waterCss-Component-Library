@@ -11,45 +11,33 @@
 @import "./Components/navigation.css";
 :root {
   --body-backgroundColor: #fff;
-  --vertical-navbar-background-color: #d1fae5;
-  --fixed-vertical-navbar-background-color: #dbeafe;
-  --logo-icon-color: #dbeafe;
+  --nav__bar_color: #dbeafe;
+  --logo-icon-color: #2874f0;
   --nav-icon-color: black;
   --btn-primary-color: #3b82f6;
-  --floating-btn-color: #3b82f6;
   --red-bg: rgb(255, 68, 61);
   --blue-bg: rgb(185, 219, 245);
   --orange-bg: rgb(253, 193, 108);
   --green-bg: rgb(147, 243, 147);
   --avatar-letter-color: #3b82f6;
-  --avatar-badge-color: rgb(87, 165, 9);
   --green-color: rgb(87, 165, 9);
   --red-color: rgb(211, 35, 35);
   --gray-border: #ccc;
   --black-border: black;
-  --wheat-border: wheat;
   --white-border: white;
   --white-color: white;
-  --pink-badge-color: #3b82f6;
-  --blue-badge-color: #dc2357;
+  --pink-badge-color: #dc2357;
+  --blue-badge-color: #3b82f6;
   --box-shadow-color: #ccc;
   --filled-color: rgba(128, 128, 128, 0.356);
   --validation-error-color: red;
   --selected-list-background-color: #3b82f6;
-  --disabled-list-background-color: rgba(82, 75, 75, 0.486);
-  --disabled-list-color: rgba(0, 0, 0, 0.651);
   --list-badge-color: #1e3a8a;
-  --action-list-color: #0d6b4d;
   --stacked-list-border-color: #ecfdf5;
   --stacked-background-color: #93c5fd;
-  --hover-background-color: #047857;
-  --active-background-color: #10b981;
-  --black-font-color: #000;
-  --hover-font-color: white;
   --toast-background-color: #3b82f6;
   --overlay-text-color: rgb(48, 46, 41);
   --margin-width: 1rem;
-  --margin-bw-buttons: 0.5rem;
   --modal-background-color: #dbeafe;
   --blue-bg-color: #60a5fa;
 }
@@ -95,11 +83,11 @@ h2 {
 }
 
 .logo {
-  color: #2874f0;
+  color: var(--logo-icon-color);
   font-size: large;
 }
 .logo-text {
-  color: #2874f0;
+  color: var(--logo-icon-color);
   font-size: large;
   padding-left: 0.3rem;
 }
