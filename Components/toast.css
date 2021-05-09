@@ -14,7 +14,7 @@
   border-radius: 5px;
   position: fixed;
   top: 80px;
-  z-index: 100;
+  z-index: 7;
 }
 .show {
   visibility: visible;

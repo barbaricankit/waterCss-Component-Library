@@ -1,4 +1,4 @@
-.lists {
+.list_main {
   border: 1px solid var(--gray-border);
   padding: 2rem;
   border-radius: 10px;
@@ -10,11 +10,11 @@
 .list {
   width: 50%;
 }
-.stacked-lists {
+.stacked_lists {
   list-style-type: none;
   padding: 0;
 }
-.stacked-list-item {
+.stacked_list_item {
   padding: 1.5rem;
   border: 0.1rem solid var(--stacked-list-border-color);
   border-bottom: none;
@@ -22,21 +22,20 @@
   font-size: large;
   position: relative;
 }
-.stacked-list-item:first-child {
+#first_list_item {
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
 }
-.stacked-list-item:last-of-type {
+#last_list_item {
   border-bottom-left-radius: 10px;
   border-bottom-right-radius: 10px;
 }
-.selected-list {
-  background-color: var(--selected-list-background-color);
+.selected_list {
+  background-color: var(--selected_list-background-color);
 }
 
 .badges {
   background-color: var(--list-badge-color);
-  /* padding: 0.4rem 0.4rem; */
   border-radius: 50%;
   position: absolute;
   right: 1rem;

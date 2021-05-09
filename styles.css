@@ -9,6 +9,7 @@
 @import "./Components/toast.css";
 @import "./Components/textutilities.css";
 @import "./Components/navigation.css";
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css");
 :root {
   --body-backgroundColor: #fff;
   --nav__bar_color: #dbeafe;
@@ -31,7 +32,7 @@
   --box-shadow-color: #ccc;
   --filled-color: rgba(128, 128, 128, 0.356);
   --validation-error-color: red;
-  --selected-list-background-color: #3b82f6;
+  --selected_list-background-color: #3b82f6;
   --list-badge-color: #1e3a8a;
   --stacked-list-border-color: #ecfdf5;
   --stacked-background-color: #93c5fd;
