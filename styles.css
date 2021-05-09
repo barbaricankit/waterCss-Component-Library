@@ -1,0 +1,125 @@
+@import "./Components/avatar.css";
+@import "./Components/alert.css";
+@import "./Components/button.css";
+@import "./Components/input.css";
+@import "./Components/list.css";
+@import "./Components/modal.css";
+@import "./Components/card.css";
+@import "./Components/image.css";
+@import "./Components/toast.css";
+@import "./Components/textutilities.css";
+@import "./Components/navigation.css";
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css");
+:root {
+  --body-backgroundColor: #fff;
+  --nav__bar_color: #dbeafe;
+  --logo-icon-color: #2874f0;
+  --nav-icon-color: black;
+  --btn-primary-color: #3b82f6;
+  --red-bg: rgb(255, 68, 61);
+  --blue-bg: rgb(185, 219, 245);
+  --orange-bg: rgb(253, 193, 108);
+  --green-bg: rgb(147, 243, 147);
+  --avatar-letter-color: #3b82f6;
+  --green-color: rgb(87, 165, 9);
+  --red-color: rgb(211, 35, 35);
+  --gray-border: #ccc;
+  --black-border: black;
+  --white-border: white;
+  --white-color: white;
+  --pink-badge-color: #dc2357;
+  --blue-badge-color: #3b82f6;
+  --box-shadow-color: #ccc;
+  --filled-color: rgba(128, 128, 128, 0.356);
+  --validation-error-color: red;
+  --selected_list-background-color: #3b82f6;
+  --list-badge-color: #1e3a8a;
+  --stacked-list-border-color: #ecfdf5;
+  --stacked-background-color: #93c5fd;
+  --toast-background-color: #3b82f6;
+  --overlay-text-color: rgb(48, 46, 41);
+  --margin-width: 1rem;
+  --modal-background-color: #dbeafe;
+  --blue-bg-color: #60a5fa;
+}
+body {
+  background-color: var(--body-backgroundColor);
+}
+* {
+  margin: 0;
+  border: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+hr {
+  border: 0;
+  clear: both;
+  display: block;
+  background-color: #375670;
+  height: 1px;
+  margin: var(--margin-width);
+}
+.component-desc {
+  padding: 1rem;
+}
+a {
+  text-decoration: none;
+  font-size: large;
+}
+.code {
+  margin: var(--margin-width);
+}
+.heading {
+  position: sticky;
+  top: 0;
+  background-color: var(--body-backgroundColor);
+  padding: 1rem 0;
+  margin: 0 1rem;
+  z-index: 1;
+  border-bottom: 1px solid #ccc;
+}
+h2 {
+  margin: var(--margin-width);
+}
+
+.logo {
+  color: var(--logo-icon-color);
+  font-size: large;
+}
+.logo-text {
+  color: var(--logo-icon-color);
+  font-size: large;
+  padding-left: 0.3rem;
+}
+.red-color {
+  color: var(--red-color);
+}
+.left-margin {
+  margin-left: 1rem;
+}
+.right-margin {
+  margin-right: 1rem;
+}
+.left-padding {
+  padding-left: 1rem;
+}
+.right-padding {
+  padding-right: 1rem;
+}
+.logo-details {
+  display: flex;
+}
+@media only screen and (min-width: 480px) {
+  .menu-btn {
+    display: none;
+  }
+  .logo {
+    color: #2874f0;
+    font-size: x-large;
+  }
+  .logo-text {
+    color: #2874f0;
+    font-size: x-large;
+  }
+}

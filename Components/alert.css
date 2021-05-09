@@ -1,0 +1,37 @@
+.alert_main {
+  border: 1px solid var(--gray-border);
+  border-radius: 5px;
+  margin: var(--margin-width);
+  display: flex;
+}
+.alert {
+  padding: 1rem;
+  margin: var(--margin-width);
+  display: flex;
+  align-items: center;
+}
+.alert-width {
+  width: 45%;
+  height: auto;
+  margin: auto;
+}
+.alert-text {
+  padding-left: 0.5rem;
+}
+.red-bg {
+  background-color: var(--red-bg);
+}
+.orange-bg {
+  background-color: var(--orange-bg);
+}
+.light-blue-bg {
+  background-color: var(--blue-bg);
+}
+.green-bg {
+  background-color: var(--green-bg);
+}
+@media only screen and (max-width: 1099px) {
+  .alert-width {
+    width: 80%;
+  }
+}

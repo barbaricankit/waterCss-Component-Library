@@ -1,0 +1,111 @@
+.button_main {
+  border: 1px solid var(--gray-border);
+  border-radius: 5px;
+  margin: var(--margin-width);
+  padding: 1rem;
+  display: flex;
+}
+.button {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 1rem 1.5rem;
+}
+.action-button {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 1rem 1.5rem;
+}
+.btn-primary {
+  padding: 0.5rem 1rem;
+  color: var(--white-color);
+  line-height: 1.75;
+  font-weight: 600;
+  letter-spacing: 0.02857em;
+  border-radius: 7px;
+  cursor: pointer;
+}
+.btn-text {
+  background-color: transparent;
+  cursor: pointer;
+  border: 0;
+  line-height: 1.75;
+  font-weight: 600;
+  letter-spacing: 0.02857em;
+}
+.btn-secondary {
+  background-color: transparent;
+  cursor: pointer;
+  border: 0;
+  line-height: 1.75;
+  font-weight: 600;
+  letter-spacing: 0.02857em;
+  border: 1px solid;
+  border-radius: 7px;
+  padding: 0.45rem 1rem;
+}
+.btn-bg-color {
+  background-color: #06f;
+}
+.icon-btn {
+  width: 1.5em;
+  height: 1.5em;
+}
+.btn-fab {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  line-height: 1.5;
+  text-align: center;
+}
+.btn-color {
+  color: #06f;
+}
+.badge-icon {
+  position: relative;
+}
+.badge {
+  position: absolute;
+  border-radius: 50%;
+  background-color: var(--btn-primary-color);
+  font-size: 12px;
+  top: -10px;
+  right: -12px;
+  color: white;
+  font-weight: 600;
+  width: 18px;
+  height: 18px;
+  line-height: 18px;
+  text-align: center;
+}
+@media only screen and (max-width: 1100px) and (min-width: 551px) {
+  .button {
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-evenly;
+  }
+  .action-button {
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-evenly;
+  }
+}
+@media only screen and (max-width: 550px) {
+  .button {
+    flex-direction: column;
+    align-content: space-between;
+    justify-content: space-evenly;
+  }
+  .button button {
+    margin-bottom: 1rem;
+  }
+  .badge-icon {
+    margin-bottom: 1rem;
+  }
+  .action-button {
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-evenly;
+  }
+}

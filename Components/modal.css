@@ -1,0 +1,54 @@
+.modal_main {
+  display: flex;
+  border: 1px solid var(--gray-border);
+  align-items: center;
+  margin: var(--margin-width);
+}
+.modal {
+  margin: var(--margin-width);
+  border: 1px solid var(--blue-bg-color);
+}
+.modal-color {
+  background-color: var(--modal-background-color);
+}
+.modal-header {
+  display: flex;
+  justify-content: space-between;
+}
+.modal-title {
+  padding: 0.3rem 0.5rem;
+  margin: var(--margin-width);
+  position: relative;
+}
+.white-bg {
+  background-color: var(--white-color);
+}
+.close-modal {
+  padding: 0rem 0.7rem 0.2rem 0.7rem;
+  margin: var(--margin-width);
+}
+.btn-modal {
+  display: flex;
+  justify-content: flex-end;
+  padding: 1rem;
+  padding: 1rem;
+  font-size: medium;
+}
+.modal-txt {
+  text-align: center;
+  font-size: larger;
+  padding: 2rem;
+}
+.modal-size {
+  width: 90%;
+}
+@media only screen and (min-width: 1100px) {
+  .modal-size {
+    width: 60%;
+  }
+}
+@media only screen and (min-width: 700px) and (max-width: 1099px) {
+  .modal-size {
+    width: 70%;
+  }
+}

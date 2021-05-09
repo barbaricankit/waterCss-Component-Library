@@ -1,0 +1,239 @@
+.nav__bar {
+  background-color: var(--nav__bar_color);
+  position: fixed;
+  top: 4.5rem;
+  width: 70%;
+  justify-content: space-between;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  z-index: 3;
+  height: 100%;
+  transform: translateX(-100%);
+  padding-left: 2rem;
+}
+.nav__bar .nav-name {
+  display: inline-block;
+  padding-left: 1.5rem;
+  color: black;
+}
+.nav__bar::-webkit-scrollbar {
+  width: 5px;
+}
+.show-nav-bar {
+  transform: translateX(0);
+  transition: transform ease-out 0.5s;
+}
+.show-nav-name {
+  display: inline;
+}
+.nav__bar::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+}
+.nav__bar::-webkit-scrollbar-thumb {
+  background-color: #3b82f6;
+  outline: 1px solid #3b82f6;
+}
+.page_header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 4;
+  height: 4.5rem;
+  background-color: var(--white-color);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 1rem;
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+}
+.main-content {
+  margin-top: 4.5rem;
+}
+.content {
+  position: fixed;
+  overflow-y: scroll;
+  height: 90%;
+  top: 0;
+  margin-top: 4.4rem;
+}
+.content::-webkit-scrollbar {
+  display: none;
+}
+.nav-name {
+  display: none;
+}
+.nav-icon {
+  display: inline;
+  color: var(--nav-icon-color);
+}
+.code {
+  display: none;
+}
+.nav__item {
+  display: block;
+  font-size: large;
+  cursor: pointer;
+  padding: 1rem 0;
+}
+.menu_elem {
+  display: flex;
+  justify-content: space-between;
+  height: 100%;
+}
+.menu__item {
+  display: flex;
+  align-items: center;
+  margin-right: 1rem;
+}
+.menu_search {
+  width: 100%;
+  position: relative;
+  z-index: 5;
+  display: none;
+}
+.search_box {
+  padding: 1rem;
+  padding-left: 1rem;
+  width: 100%;
+  background-color: white;
+  border-radius: 8px;
+  border: 1px solid var(--gray-border);
+  font-size: large;
+  padding-right: 2.5rem;
+}
+.search-icon {
+  position: absolute;
+  right: 1rem;
+  cursor: pointer;
+}
+.search_bar {
+  width: 100%;
+  text-align: center;
+  z-index: 5;
+  position: fixed;
+  top: 0;
+  display: none;
+}
+.search_text {
+  padding: 1rem;
+  padding-left: 3rem;
+  width: 100%;
+  height: 4.5rem;
+  font-size: large;
+  padding-right: 3rem;
+}
+input:focus {
+  outline: none;
+}
+.back_icon {
+  position: absolute;
+  left: 1rem;
+  cursor: pointer;
+  top: 1.8rem;
+}
+.srch-icon {
+  position: absolute;
+  right: 1rem;
+  cursor: pointer;
+  top: 1.8rem;
+}
+.show-search_bar {
+  display: flex;
+  justify-content: space-between;
+}
+.user {
+  position: relative;
+}
+.user-menu {
+  position: absolute;
+  background-color: var(--white-color);
+  left: -73px;
+  top: 4.2rem;
+  z-index: 3;
+  display: none;
+}
+.user-sub-menu {
+  display: block;
+  font-size: large;
+  cursor: pointer;
+  padding: 1rem;
+  color: var(--btn-primary-color);
+}
+.show-user-menu {
+  display: block;
+}
+@media only screen and (min-width: 1100px) {
+  .code {
+    display: block;
+    width: 100%;
+  }
+  .content {
+    margin-left: 12rem;
+  }
+  .menu__item .nav-icon {
+    display: none;
+  }
+  .menu__item .nav-icon {
+    margin: 0;
+  }
+  .menu__item .nav-name {
+    display: inline;
+  }
+}
+@media only screen and (min-width: 850px) {
+  .nav__bar {
+    width: 12rem;
+    z-index: 0;
+    transform: translateX(0);
+    padding-left: 0rem;
+  }
+  .nav__bar .nav-name {
+    padding-left: 1rem;
+  }
+  .nav-name {
+    display: inline;
+    color: black;
+    font-size: large;
+    margin-left: 1rem;
+  }
+  .menu__item .nav-icon {
+    display: none;
+  }
+  .menu__item {
+    display: flex;
+    align-items: center;
+    margin-right: 1rem;
+  }
+  .content {
+    margin-left: 12rem;
+  }
+  .nav-icon {
+    display: inline;
+    color: var(--nav-icon-color);
+    padding-left: 1rem;
+  }
+  .menu_search {
+    width: 50%;
+    position: relative;
+  }
+}
+@media only screen and (min-width: 480px) and (max-width: 849px) {
+  .nav__bar {
+    width: 4rem;
+    z-index: 0;
+    transform: translateX(0);
+    padding-left: 0rem;
+  }
+  .content {
+    margin-left: 4rem;
+  }
+  .nav-icon {
+    display: inline;
+    color: var(--nav-icon-color);
+    padding-left: 1rem;
+  }
+  .nav__bar .nav-name {
+    display: none;
+  }
+}
