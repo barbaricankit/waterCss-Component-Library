@@ -1,5 +1,11 @@
-# componentlibrary
-# Desktop Version
-![image](https://user-images.githubusercontent.com/75484187/113476192-9d011b00-9497-11eb-941d-0e0820044ce5.png)
-# Mobile Version
-![image](https://user-images.githubusercontent.com/75484187/113476222-bbffad00-9497-11eb-94bd-8ca0016d6b35.png)
+# ComponentLibrary
+Contains the css styling for various components
+
+Desktop View
+![alt text](https://res.cloudinary.com/ankitneog/image/upload/v1627041065/Web_View_jjt0xp.png)
+
+Mobile View
+![alt text](https://res.cloudinary.com/ankitneog/image/upload/v1627041401/Mobile_Home_View_tp6dzz.png)
+
+Mobile Navbar View
+![alt text](https://res.cloudinary.com/ankitneog/image/upload/v1627041399/Mobile_Nav_Bar_tk9wst.png)
